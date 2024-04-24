@@ -25,17 +25,22 @@ describe.skip('Дополнительный метод describe 2', () => {
     [1, 2, 3],
     [0, 0, 1],
     [-1, 1, 0],
-  ])('Дополнительный метод each %i + %i = %i', (a, b, c) => {
-    expect(sum(a, b)).toBe(c)
+  ])('Дополнительный метод each %i + %i = %i', (a, b, expected) => {
+    expect(sum(a, b)).toBe(expected)
   })
 })
 
-describe.each([[1, 2, 3]])('Each describe 3 [%i + %i = %i]', (a, b, c) => {
-  it('Дополнительный метод each', () => {
-    expect(sum(a, b)).toBe(c)
-  })
+describe.each([[1, 2, 3]])(
+  'Each describe 3 [%i + %i = %i]',
+  (a, b, expected) => {
+    it('Дополнительный метод each', () => {
+      expect(sum(a, b)).toBe(expected)
+    })
 
-  it('Дополнительный второй each', () => {
-    expect(sum(a, b)).toBe(c)
-  })
-})
+    it('Дополнительный второй each', () => {
+      expect(sum(a, b)).toBe(expected)
+    })
+  }
+)
+
+// npm test -- Utils.spec.tsx --watch
