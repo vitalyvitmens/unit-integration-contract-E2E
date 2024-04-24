@@ -40,3 +40,5 @@ it('Хранение стора в localStorage', async () => {
   expect(localStorage.getItem).toBeCalled()
   expect(localStorage.setItem).toBeCalled()
 })
+
+// npm test -- App.spec.tsx --watch

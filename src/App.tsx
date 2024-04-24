@@ -1,10 +1,9 @@
+import { Provider } from 'react-redux'
 import { store } from './store/configureStore'
-
-import './styles.css'
 import { NewTaskBar } from './modules/NewTaskBar'
 import { TaskList } from './modules/TaskList'
-import { Provider } from 'react-redux'
 import { NotifierContainer } from './modules/NotifierContainer'
+import './styles.css'
 
 export const App = () => {
   return (

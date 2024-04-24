@@ -1,7 +1,6 @@
-import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Notifier } from '../components/Notifier'
 import { clearNotification, getNotification } from '../store/taskSlice'
+import { Notifier } from '../components/Notifier'
 
 export const NotifierContainer = () => {
   const dispatch = useDispatch()
