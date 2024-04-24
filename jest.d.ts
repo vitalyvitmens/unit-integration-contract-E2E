@@ -14,9 +14,6 @@ declare global {
     }
     interface Matchers<R, T> {
       toBeShorterThan(len: number): T
-      toHaveValue(expected: any): R
-      toBeDisabled(): R
-      toMatchDiffSnapshot(expected: any): R
     }
     interface ExpectExtendMap {
       toBeShorterThan: OwnMatcher<[len: number]>

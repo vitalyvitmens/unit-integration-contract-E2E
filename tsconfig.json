@@ -9,6 +9,7 @@
     "strict": true,
     "sourceMap": true,
     "target": "esnext",
+    "types": ["@testing-library/jest-dom", "snapshot-diff", "node"],
     "outDir": "build",
     "paths": {
       "src/*": ["./src/*"]
