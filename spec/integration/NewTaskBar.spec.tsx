@@ -37,7 +37,7 @@ it.each([
   expect(hintEl.innerHTML.length > 0).toBe(isHinted)
 })
 
-it('Не больше 10 новых задач', async () => {
+it('Не больше 10 невыполненных задач', async () => {
   const spied = jest
     .spyOn(taskSliceModule, 'uncompleteCount')
     .mockReturnValue(10)
@@ -52,3 +52,5 @@ it('Не больше 10 новых задач', async () => {
   expect(inputEl).toBeDisabled()
   expect(addBtnEl).toBeDisabled()
 })
+
+// npm test -- NewTaskBar.spec.tsx --watch
