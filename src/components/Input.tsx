@@ -1,7 +1,6 @@
 import { ChangeEvent, useMemo } from 'react'
-
-import './styles.css'
 import { headerFieldOptions, validateHeaderMax } from 'src/utils/helpers'
+import './styles.css'
 
 type Props = {
   value: string

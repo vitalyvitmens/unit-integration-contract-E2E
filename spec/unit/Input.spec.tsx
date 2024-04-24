@@ -1,4 +1,4 @@
-import { prettyDOM, render, screen } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import { Input } from 'src/components/Input'
 import ue from '@testing-library/user-event'
 
@@ -31,3 +31,5 @@ describe('Поле ввода', () => {
     expect(hintEl.innerHTML).not.toBe('')
   })
 })
+
+// npm test -- Input.spec.tsx --watch
