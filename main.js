@@ -10,56 +10,58 @@
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "EnhancerArray": () => (/* binding */ EnhancerArray),
-/* harmony export */   "MiddlewareArray": () => (/* binding */ MiddlewareArray),
-/* harmony export */   "SHOULD_AUTOBATCH": () => (/* binding */ SHOULD_AUTOBATCH),
-/* harmony export */   "TaskAbortError": () => (/* binding */ TaskAbortError),
-/* harmony export */   "__DO_NOT_USE__ActionTypes": () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.__DO_NOT_USE__ActionTypes),
-/* harmony export */   "addListener": () => (/* binding */ addListener),
-/* harmony export */   "applyMiddleware": () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.applyMiddleware),
-/* harmony export */   "autoBatchEnhancer": () => (/* binding */ autoBatchEnhancer),
-/* harmony export */   "bindActionCreators": () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.bindActionCreators),
-/* harmony export */   "clearAllListeners": () => (/* binding */ clearAllListeners),
-/* harmony export */   "combineReducers": () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.combineReducers),
-/* harmony export */   "compose": () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.compose),
-/* harmony export */   "configureStore": () => (/* binding */ configureStore),
-/* harmony export */   "createAction": () => (/* binding */ createAction),
-/* harmony export */   "createAsyncThunk": () => (/* binding */ createAsyncThunk),
-/* harmony export */   "createDraftSafeSelector": () => (/* binding */ createDraftSafeSelector),
-/* harmony export */   "createEntityAdapter": () => (/* binding */ createEntityAdapter),
-/* harmony export */   "createImmutableStateInvariantMiddleware": () => (/* binding */ createImmutableStateInvariantMiddleware),
-/* harmony export */   "createListenerMiddleware": () => (/* binding */ createListenerMiddleware),
-/* harmony export */   "createNextState": () => (/* reexport safe */ immer__WEBPACK_IMPORTED_MODULE_2__["default"]),
-/* harmony export */   "createReducer": () => (/* binding */ createReducer),
-/* harmony export */   "createSelector": () => (/* reexport safe */ reselect__WEBPACK_IMPORTED_MODULE_1__.createSelector),
-/* harmony export */   "createSerializableStateInvariantMiddleware": () => (/* binding */ createSerializableStateInvariantMiddleware),
-/* harmony export */   "createSlice": () => (/* binding */ createSlice),
-/* harmony export */   "createStore": () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.createStore),
-/* harmony export */   "current": () => (/* reexport safe */ immer__WEBPACK_IMPORTED_MODULE_2__.current),
-/* harmony export */   "findNonSerializableValue": () => (/* binding */ findNonSerializableValue),
-/* harmony export */   "freeze": () => (/* reexport safe */ immer__WEBPACK_IMPORTED_MODULE_2__.freeze),
-/* harmony export */   "getDefaultMiddleware": () => (/* binding */ getDefaultMiddleware),
-/* harmony export */   "getType": () => (/* binding */ getType),
-/* harmony export */   "isAction": () => (/* binding */ isAction),
-/* harmony export */   "isAllOf": () => (/* binding */ isAllOf),
-/* harmony export */   "isAnyOf": () => (/* binding */ isAnyOf),
-/* harmony export */   "isAsyncThunkAction": () => (/* binding */ isAsyncThunkAction),
-/* harmony export */   "isDraft": () => (/* reexport safe */ immer__WEBPACK_IMPORTED_MODULE_2__.isDraft),
-/* harmony export */   "isFluxStandardAction": () => (/* binding */ isFSA),
-/* harmony export */   "isFulfilled": () => (/* binding */ isFulfilled),
-/* harmony export */   "isImmutableDefault": () => (/* binding */ isImmutableDefault),
-/* harmony export */   "isPending": () => (/* binding */ isPending),
-/* harmony export */   "isPlain": () => (/* binding */ isPlain),
-/* harmony export */   "isPlainObject": () => (/* binding */ isPlainObject),
-/* harmony export */   "isRejected": () => (/* binding */ isRejected),
-/* harmony export */   "isRejectedWithValue": () => (/* binding */ isRejectedWithValue),
-/* harmony export */   "legacy_createStore": () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.legacy_createStore),
-/* harmony export */   "miniSerializeError": () => (/* binding */ miniSerializeError),
-/* harmony export */   "nanoid": () => (/* binding */ nanoid),
-/* harmony export */   "original": () => (/* reexport safe */ immer__WEBPACK_IMPORTED_MODULE_2__.original),
-/* harmony export */   "prepareAutoBatched": () => (/* binding */ prepareAutoBatched),
-/* harmony export */   "removeListener": () => (/* binding */ removeListener),
-/* harmony export */   "unwrapResult": () => (/* binding */ unwrapResult)
+/* harmony export */   EnhancerArray: () => (/* binding */ EnhancerArray),
+/* harmony export */   MiddlewareArray: () => (/* binding */ MiddlewareArray),
+/* harmony export */   SHOULD_AUTOBATCH: () => (/* binding */ SHOULD_AUTOBATCH),
+/* harmony export */   TaskAbortError: () => (/* binding */ TaskAbortError),
+/* harmony export */   __DO_NOT_USE__ActionTypes: () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.__DO_NOT_USE__ActionTypes),
+/* harmony export */   addListener: () => (/* binding */ addListener),
+/* harmony export */   applyMiddleware: () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.applyMiddleware),
+/* harmony export */   autoBatchEnhancer: () => (/* binding */ autoBatchEnhancer),
+/* harmony export */   bindActionCreators: () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.bindActionCreators),
+/* harmony export */   clearAllListeners: () => (/* binding */ clearAllListeners),
+/* harmony export */   combineReducers: () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.combineReducers),
+/* harmony export */   compose: () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.compose),
+/* harmony export */   configureStore: () => (/* binding */ configureStore),
+/* harmony export */   createAction: () => (/* binding */ createAction),
+/* harmony export */   createActionCreatorInvariantMiddleware: () => (/* binding */ createActionCreatorInvariantMiddleware),
+/* harmony export */   createAsyncThunk: () => (/* binding */ createAsyncThunk),
+/* harmony export */   createDraftSafeSelector: () => (/* binding */ createDraftSafeSelector),
+/* harmony export */   createEntityAdapter: () => (/* binding */ createEntityAdapter),
+/* harmony export */   createImmutableStateInvariantMiddleware: () => (/* binding */ createImmutableStateInvariantMiddleware),
+/* harmony export */   createListenerMiddleware: () => (/* binding */ createListenerMiddleware),
+/* harmony export */   createNextState: () => (/* reexport safe */ immer__WEBPACK_IMPORTED_MODULE_2__["default"]),
+/* harmony export */   createReducer: () => (/* binding */ createReducer),
+/* harmony export */   createSelector: () => (/* reexport safe */ reselect__WEBPACK_IMPORTED_MODULE_1__.createSelector),
+/* harmony export */   createSerializableStateInvariantMiddleware: () => (/* binding */ createSerializableStateInvariantMiddleware),
+/* harmony export */   createSlice: () => (/* binding */ createSlice),
+/* harmony export */   createStore: () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.createStore),
+/* harmony export */   current: () => (/* reexport safe */ immer__WEBPACK_IMPORTED_MODULE_2__.current),
+/* harmony export */   findNonSerializableValue: () => (/* binding */ findNonSerializableValue),
+/* harmony export */   freeze: () => (/* reexport safe */ immer__WEBPACK_IMPORTED_MODULE_2__.freeze),
+/* harmony export */   getDefaultMiddleware: () => (/* binding */ getDefaultMiddleware),
+/* harmony export */   getType: () => (/* binding */ getType),
+/* harmony export */   isAction: () => (/* binding */ isAction),
+/* harmony export */   isActionCreator: () => (/* binding */ isActionCreator),
+/* harmony export */   isAllOf: () => (/* binding */ isAllOf),
+/* harmony export */   isAnyOf: () => (/* binding */ isAnyOf),
+/* harmony export */   isAsyncThunkAction: () => (/* binding */ isAsyncThunkAction),
+/* harmony export */   isDraft: () => (/* reexport safe */ immer__WEBPACK_IMPORTED_MODULE_2__.isDraft),
+/* harmony export */   isFluxStandardAction: () => (/* binding */ isFSA),
+/* harmony export */   isFulfilled: () => (/* binding */ isFulfilled),
+/* harmony export */   isImmutableDefault: () => (/* binding */ isImmutableDefault),
+/* harmony export */   isPending: () => (/* binding */ isPending),
+/* harmony export */   isPlain: () => (/* binding */ isPlain),
+/* harmony export */   isPlainObject: () => (/* binding */ isPlainObject),
+/* harmony export */   isRejected: () => (/* binding */ isRejected),
+/* harmony export */   isRejectedWithValue: () => (/* binding */ isRejectedWithValue),
+/* harmony export */   legacy_createStore: () => (/* reexport safe */ redux__WEBPACK_IMPORTED_MODULE_0__.legacy_createStore),
+/* harmony export */   miniSerializeError: () => (/* binding */ miniSerializeError),
+/* harmony export */   nanoid: () => (/* binding */ nanoid),
+/* harmony export */   original: () => (/* reexport safe */ immer__WEBPACK_IMPORTED_MODULE_2__.original),
+/* harmony export */   prepareAutoBatched: () => (/* binding */ prepareAutoBatched),
+/* harmony export */   removeListener: () => (/* binding */ removeListener),
+/* harmony export */   unwrapResult: () => (/* binding */ unwrapResult)
 /* harmony export */ });
 /* harmony import */ var immer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! immer */ "./node_modules/immer/dist/immer.esm.mjs");
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
@@ -208,6 +210,66 @@ function isPlainObject(value) {
 }
 // src/getDefaultMiddleware.ts
 
+// src/tsHelpers.ts
+var hasMatchFunction = function (v) {
+    return v && typeof v.match === "function";
+};
+// src/createAction.ts
+function createAction(type, prepareAction) {
+    function actionCreator() {
+        var args = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            args[_i] = arguments[_i];
+        }
+        if (prepareAction) {
+            var prepared = prepareAction.apply(void 0, args);
+            if (!prepared) {
+                throw new Error("prepareAction did not return an object");
+            }
+            return __spreadValues(__spreadValues({
+                type: type,
+                payload: prepared.payload
+            }, "meta" in prepared && { meta: prepared.meta }), "error" in prepared && { error: prepared.error });
+        }
+        return { type: type, payload: args[0] };
+    }
+    actionCreator.toString = function () { return "" + type; };
+    actionCreator.type = type;
+    actionCreator.match = function (action) { return action.type === type; };
+    return actionCreator;
+}
+function isAction(action) {
+    return isPlainObject(action) && "type" in action;
+}
+function isActionCreator(action) {
+    return typeof action === "function" && "type" in action && hasMatchFunction(action);
+}
+function isFSA(action) {
+    return isAction(action) && typeof action.type === "string" && Object.keys(action).every(isValidKey);
+}
+function isValidKey(key) {
+    return ["type", "payload", "error", "meta"].indexOf(key) > -1;
+}
+function getType(actionCreator) {
+    return "" + actionCreator;
+}
+// src/actionCreatorInvariantMiddleware.ts
+function getMessage(type) {
+    var splitType = type ? ("" + type).split("/") : [];
+    var actionName = splitType[splitType.length - 1] || "actionCreator";
+    return "Detected an action creator with type \"" + (type || "unknown") + "\" being dispatched. \nMake sure you're calling the action creator before dispatching, i.e. `dispatch(" + actionName + "())` instead of `dispatch(" + actionName + ")`. This is necessary even if the action has no payload.";
+}
+function createActionCreatorInvariantMiddleware(options) {
+    if (options === void 0) { options = {}; }
+    if (false) {}
+    var _c = options.isActionCreator, isActionCreator2 = _c === void 0 ? isActionCreator : _c;
+    return function () { return function (next) { return function (action) {
+        if (isActionCreator2(action)) {
+            console.warn(getMessage(action.type));
+        }
+        return next(action);
+    }; }; };
+}
 // src/utils.ts
 
 function getTimeMeasureUtils(maxDelay, fnName) {
@@ -355,11 +417,13 @@ function trackForMutations(isImmutable, ignorePaths, obj) {
         }
     };
 }
-function trackProperties(isImmutable, ignorePaths, obj, path) {
+function trackProperties(isImmutable, ignorePaths, obj, path, checkedObjects) {
     if (ignorePaths === void 0) { ignorePaths = []; }
     if (path === void 0) { path = ""; }
+    if (checkedObjects === void 0) { checkedObjects = new Set(); }
     var tracked = { value: obj };
-    if (!isImmutable(obj)) {
+    if (!isImmutable(obj) && !checkedObjects.has(obj)) {
+        checkedObjects.add(obj);
         tracked.children = {};
         for (var key in obj) {
             var childPath = path ? path + "." + key : key;
@@ -560,7 +624,7 @@ function curryGetDefaultMiddleware() {
 }
 function getDefaultMiddleware(options) {
     if (options === void 0) { options = {}; }
-    var _c = options.thunk, thunk = _c === void 0 ? true : _c, _d = options.immutableCheck, immutableCheck = _d === void 0 ? true : _d, _e = options.serializableCheck, serializableCheck = _e === void 0 ? true : _e;
+    var _c = options.thunk, thunk = _c === void 0 ? true : _c, _d = options.immutableCheck, immutableCheck = _d === void 0 ? true : _d, _e = options.serializableCheck, serializableCheck = _e === void 0 ? true : _e, _f = options.actionCreatorCheck, actionCreatorCheck = _f === void 0 ? true : _f;
     var middlewareArray = new MiddlewareArray();
     if (thunk) {
         if (isBoolean(thunk)) {
@@ -584,6 +648,13 @@ function getDefaultMiddleware(options) {
                 serializableOptions = serializableCheck;
             }
             middlewareArray.push(createSerializableStateInvariantMiddleware(serializableOptions));
+        }
+        if (actionCreatorCheck) {
+            var actionCreatorOptions = {};
+            if (!isBoolean(actionCreatorCheck)) {
+                actionCreatorOptions = actionCreatorCheck;
+            }
+            middlewareArray.unshift(createActionCreatorInvariantMiddleware(actionCreatorOptions));
         }
     }
     return middlewareArray;
@@ -631,42 +702,6 @@ function configureStore(options) {
     var composedEnhancer = finalCompose.apply(void 0, storeEnhancers);
     return (0,redux__WEBPACK_IMPORTED_MODULE_0__.createStore)(rootReducer, preloadedState, composedEnhancer);
 }
-// src/createAction.ts
-function createAction(type, prepareAction) {
-    function actionCreator() {
-        var args = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            args[_i] = arguments[_i];
-        }
-        if (prepareAction) {
-            var prepared = prepareAction.apply(void 0, args);
-            if (!prepared) {
-                throw new Error("prepareAction did not return an object");
-            }
-            return __spreadValues(__spreadValues({
-                type: type,
-                payload: prepared.payload
-            }, "meta" in prepared && { meta: prepared.meta }), "error" in prepared && { error: prepared.error });
-        }
-        return { type: type, payload: args[0] };
-    }
-    actionCreator.toString = function () { return "" + type; };
-    actionCreator.type = type;
-    actionCreator.match = function (action) { return action.type === type; };
-    return actionCreator;
-}
-function isAction(action) {
-    return isPlainObject(action) && "type" in action;
-}
-function isFSA(action) {
-    return isAction(action) && typeof action.type === "string" && Object.keys(action).every(isValidKey);
-}
-function isValidKey(key) {
-    return ["type", "payload", "error", "meta"].indexOf(key) > -1;
-}
-function getType(actionCreator) {
-    return "" + actionCreator;
-}
 // src/createReducer.ts
 
 // src/mapBuilders.ts
@@ -685,8 +720,11 @@ function executeReducerBuilderCallback(builderCallback) {
                 }
             }
             var type = typeof typeOrActionCreator === "string" ? typeOrActionCreator : typeOrActionCreator.type;
+            if (!type) {
+                throw new Error("`builder.addCase` cannot be called with an empty action type");
+            }
             if (type in actionsMap) {
-                throw new Error("addCase cannot be called with two reducers for the same action type");
+                throw new Error("`builder.addCase` cannot be called with two reducers for the same action type");
             }
             actionsMap[type] = reducer;
             return builder;
@@ -1410,10 +1448,6 @@ function unwrapResult(action) {
 function isThenable(value) {
     return value !== null && typeof value === "object" && typeof value.then === "function";
 }
-// src/tsHelpers.ts
-var hasMatchFunction = function (v) {
-    return v && typeof v.match === "function";
-};
 // src/matchers.ts
 var matches = function (matcher, action) {
     if (hasMatchFunction(matcher)) {
@@ -1662,9 +1696,9 @@ var createDelay = function (signal) {
 var assign = Object.assign;
 var INTERNAL_NIL_TOKEN = {};
 var alm = "listenerMiddleware";
-var createFork = function (parentAbortSignal) {
+var createFork = function (parentAbortSignal, parentBlockingPromises) {
     var linkControllers = function (controller) { return addAbortSignalListener(parentAbortSignal, function () { return abortControllerWithReason(controller, parentAbortSignal.reason); }); };
-    return function (taskExecutor) {
+    return function (taskExecutor, opts) {
         assertFunction(taskExecutor, "taskExecutor");
         var childAbortController = new AbortController();
         linkControllers(childAbortController);
@@ -1687,6 +1721,9 @@ var createFork = function (parentAbortSignal) {
                 }
             });
         }); }, function () { return abortControllerWithReason(childAbortController, taskCompleted); });
+        if (opts == null ? void 0 : opts.autoJoin) {
+            parentBlockingPromises.push(result);
+        }
         return {
             result: createPause(parentAbortSignal)(result),
             cancel: function () {
@@ -1857,15 +1894,16 @@ function createListenerMiddleware(middlewareOptions) {
         return !!entry;
     };
     var notifyListener = function (entry, action, api, getOriginalState) { return __async(_this, null, function () {
-        var internalTaskController, take, listenerError_1;
+        var internalTaskController, take, autoJoinPromises, listenerError_1;
         return __generator(this, function (_c) {
             switch (_c.label) {
                 case 0:
                     internalTaskController = new AbortController();
                     take = createTakePattern(startListening, internalTaskController.signal);
+                    autoJoinPromises = [];
                     _c.label = 1;
                 case 1:
-                    _c.trys.push([1, 3, 4, 5]);
+                    _c.trys.push([1, 3, 4, 6]);
                     entry.pending.add(internalTaskController);
                     return [4 /*yield*/, Promise.resolve(entry.effect(action, assign({}, api, {
                             getOriginalState: getOriginalState,
@@ -1875,7 +1913,7 @@ function createListenerMiddleware(middlewareOptions) {
                             pause: createPause(internalTaskController.signal),
                             extra: extra,
                             signal: internalTaskController.signal,
-                            fork: createFork(internalTaskController.signal),
+                            fork: createFork(internalTaskController.signal, autoJoinPromises),
                             unsubscribe: entry.unsubscribe,
                             subscribe: function () {
                                 listenerMap.set(entry.id, entry);
@@ -1891,7 +1929,7 @@ function createListenerMiddleware(middlewareOptions) {
                         })))];
                 case 2:
                     _c.sent();
-                    return [3 /*break*/, 5];
+                    return [3 /*break*/, 6];
                 case 3:
                     listenerError_1 = _c.sent();
                     if (!(listenerError_1 instanceof TaskAbortError)) {
@@ -1899,12 +1937,14 @@ function createListenerMiddleware(middlewareOptions) {
                             raisedBy: "effect"
                         });
                     }
-                    return [3 /*break*/, 5];
-                case 4:
+                    return [3 /*break*/, 6];
+                case 4: return [4 /*yield*/, Promise.allSettled(autoJoinPromises)];
+                case 5:
+                    _c.sent();
                     abortControllerWithReason(internalTaskController, listenerCompleted);
                     entry.pending.delete(internalTaskController);
                     return [7 /*endfinally*/];
-                case 5: return [2 /*return*/];
+                case 6: return [2 /*return*/];
             }
         });
     }); };
@@ -32374,252 +32414,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/react-is/cjs/react-is.development.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-/**
- * @license React
- * react-is.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-
-
-if (true) {
-  (function() {
-'use strict';
-
-// ATTENTION
-// When adding new symbols to this file,
-// Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
-// The Symbol used to tag the ReactElement-like types.
-var REACT_ELEMENT_TYPE = Symbol.for('react.element');
-var REACT_PORTAL_TYPE = Symbol.for('react.portal');
-var REACT_FRAGMENT_TYPE = Symbol.for('react.fragment');
-var REACT_STRICT_MODE_TYPE = Symbol.for('react.strict_mode');
-var REACT_PROFILER_TYPE = Symbol.for('react.profiler');
-var REACT_PROVIDER_TYPE = Symbol.for('react.provider');
-var REACT_CONTEXT_TYPE = Symbol.for('react.context');
-var REACT_SERVER_CONTEXT_TYPE = Symbol.for('react.server_context');
-var REACT_FORWARD_REF_TYPE = Symbol.for('react.forward_ref');
-var REACT_SUSPENSE_TYPE = Symbol.for('react.suspense');
-var REACT_SUSPENSE_LIST_TYPE = Symbol.for('react.suspense_list');
-var REACT_MEMO_TYPE = Symbol.for('react.memo');
-var REACT_LAZY_TYPE = Symbol.for('react.lazy');
-var REACT_OFFSCREEN_TYPE = Symbol.for('react.offscreen');
-
-// -----------------------------------------------------------------------------
-
-var enableScopeAPI = false; // Experimental Create Event Handle API.
-var enableCacheElement = false;
-var enableTransitionTracing = false; // No known bugs, but needs performance testing
-
-var enableLegacyHidden = false; // Enables unstable_avoidThisFallback feature in Fiber
-// stuff. Intended to enable React core members to more easily debug scheduling
-// issues in DEV builds.
-
-var enableDebugTracing = false; // Track which Fiber(s) schedule render work.
-
-var REACT_MODULE_REFERENCE;
-
-{
-  REACT_MODULE_REFERENCE = Symbol.for('react.module.reference');
-}
-
-function isValidElementType(type) {
-  if (typeof type === 'string' || typeof type === 'function') {
-    return true;
-  } // Note: typeof might be other than 'symbol' or 'number' (e.g. if it's a polyfill).
-
-
-  if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing  || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden  || type === REACT_OFFSCREEN_TYPE || enableScopeAPI  || enableCacheElement  || enableTransitionTracing ) {
-    return true;
-  }
-
-  if (typeof type === 'object' && type !== null) {
-    if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || // This needs to include all possible module reference object
-    // types supported by any Flight configuration anywhere since
-    // we don't know which Flight build this will end up being used
-    // with.
-    type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== undefined) {
-      return true;
-    }
-  }
-
-  return false;
-}
-
-function typeOf(object) {
-  if (typeof object === 'object' && object !== null) {
-    var $$typeof = object.$$typeof;
-
-    switch ($$typeof) {
-      case REACT_ELEMENT_TYPE:
-        var type = object.type;
-
-        switch (type) {
-          case REACT_FRAGMENT_TYPE:
-          case REACT_PROFILER_TYPE:
-          case REACT_STRICT_MODE_TYPE:
-          case REACT_SUSPENSE_TYPE:
-          case REACT_SUSPENSE_LIST_TYPE:
-            return type;
-
-          default:
-            var $$typeofType = type && type.$$typeof;
-
-            switch ($$typeofType) {
-              case REACT_SERVER_CONTEXT_TYPE:
-              case REACT_CONTEXT_TYPE:
-              case REACT_FORWARD_REF_TYPE:
-              case REACT_LAZY_TYPE:
-              case REACT_MEMO_TYPE:
-              case REACT_PROVIDER_TYPE:
-                return $$typeofType;
-
-              default:
-                return $$typeof;
-            }
-
-        }
-
-      case REACT_PORTAL_TYPE:
-        return $$typeof;
-    }
-  }
-
-  return undefined;
-}
-var ContextConsumer = REACT_CONTEXT_TYPE;
-var ContextProvider = REACT_PROVIDER_TYPE;
-var Element = REACT_ELEMENT_TYPE;
-var ForwardRef = REACT_FORWARD_REF_TYPE;
-var Fragment = REACT_FRAGMENT_TYPE;
-var Lazy = REACT_LAZY_TYPE;
-var Memo = REACT_MEMO_TYPE;
-var Portal = REACT_PORTAL_TYPE;
-var Profiler = REACT_PROFILER_TYPE;
-var StrictMode = REACT_STRICT_MODE_TYPE;
-var Suspense = REACT_SUSPENSE_TYPE;
-var SuspenseList = REACT_SUSPENSE_LIST_TYPE;
-var hasWarnedAboutDeprecatedIsAsyncMode = false;
-var hasWarnedAboutDeprecatedIsConcurrentMode = false; // AsyncMode should be deprecated
-
-function isAsyncMode(object) {
-  {
-    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
-      hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
-
-      console['warn']('The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 18+.');
-    }
-  }
-
-  return false;
-}
-function isConcurrentMode(object) {
-  {
-    if (!hasWarnedAboutDeprecatedIsConcurrentMode) {
-      hasWarnedAboutDeprecatedIsConcurrentMode = true; // Using console['warn'] to evade Babel and ESLint
-
-      console['warn']('The ReactIs.isConcurrentMode() alias has been deprecated, ' + 'and will be removed in React 18+.');
-    }
-  }
-
-  return false;
-}
-function isContextConsumer(object) {
-  return typeOf(object) === REACT_CONTEXT_TYPE;
-}
-function isContextProvider(object) {
-  return typeOf(object) === REACT_PROVIDER_TYPE;
-}
-function isElement(object) {
-  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-}
-function isForwardRef(object) {
-  return typeOf(object) === REACT_FORWARD_REF_TYPE;
-}
-function isFragment(object) {
-  return typeOf(object) === REACT_FRAGMENT_TYPE;
-}
-function isLazy(object) {
-  return typeOf(object) === REACT_LAZY_TYPE;
-}
-function isMemo(object) {
-  return typeOf(object) === REACT_MEMO_TYPE;
-}
-function isPortal(object) {
-  return typeOf(object) === REACT_PORTAL_TYPE;
-}
-function isProfiler(object) {
-  return typeOf(object) === REACT_PROFILER_TYPE;
-}
-function isStrictMode(object) {
-  return typeOf(object) === REACT_STRICT_MODE_TYPE;
-}
-function isSuspense(object) {
-  return typeOf(object) === REACT_SUSPENSE_TYPE;
-}
-function isSuspenseList(object) {
-  return typeOf(object) === REACT_SUSPENSE_LIST_TYPE;
-}
-
-exports.ContextConsumer = ContextConsumer;
-exports.ContextProvider = ContextProvider;
-exports.Element = Element;
-exports.ForwardRef = ForwardRef;
-exports.Fragment = Fragment;
-exports.Lazy = Lazy;
-exports.Memo = Memo;
-exports.Portal = Portal;
-exports.Profiler = Profiler;
-exports.StrictMode = StrictMode;
-exports.Suspense = Suspense;
-exports.SuspenseList = SuspenseList;
-exports.isAsyncMode = isAsyncMode;
-exports.isConcurrentMode = isConcurrentMode;
-exports.isContextConsumer = isContextConsumer;
-exports.isContextProvider = isContextProvider;
-exports.isElement = isElement;
-exports.isForwardRef = isForwardRef;
-exports.isFragment = isFragment;
-exports.isLazy = isLazy;
-exports.isMemo = isMemo;
-exports.isPortal = isPortal;
-exports.isProfiler = isProfiler;
-exports.isStrictMode = isStrictMode;
-exports.isSuspense = isSuspense;
-exports.isSuspenseList = isSuspenseList;
-exports.isValidElementType = isValidElementType;
-exports.typeOf = typeOf;
-  })();
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/react-is/index.js":
-/*!****************************************!*\
-  !*** ./node_modules/react-is/index.js ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-
-
-if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
-}
-
-
-/***/ }),
-
 /***/ "./node_modules/react-redux/es/components/Context.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-redux/es/components/Context.js ***!
@@ -32628,18 +32422,38 @@ if (false) {} else {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ReactReduxContext": () => (/* binding */ ReactReduxContext),
+/* harmony export */   ReactReduxContext: () => (/* binding */ ReactReduxContext),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
-const ReactReduxContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(null);
+const ContextKey = Symbol.for(`react-redux-context`);
+const gT = typeof globalThis !== "undefined" ? globalThis :
+/* fall back to a per-module scope (pre-8.1 behaviour) if `globalThis` is not available */
+{};
 
-if (true) {
-  ReactReduxContext.displayName = 'ReactRedux';
+function getContext() {
+  var _gT$ContextKey;
+
+  if (!react__WEBPACK_IMPORTED_MODULE_0__.createContext) return {};
+  const contextMap = (_gT$ContextKey = gT[ContextKey]) != null ? _gT$ContextKey : gT[ContextKey] = new Map();
+  let realContext = contextMap.get(react__WEBPACK_IMPORTED_MODULE_0__.createContext);
+
+  if (!realContext) {
+    realContext = react__WEBPACK_IMPORTED_MODULE_0__.createContext(null);
+
+    if (true) {
+      realContext.displayName = 'ReactRedux';
+    }
+
+    contextMap.set(react__WEBPACK_IMPORTED_MODULE_0__.createContext, realContext);
+  }
+
+  return realContext;
 }
 
+const ReactReduxContext = /*#__PURE__*/getContext();
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ReactReduxContext);
 
 /***/ }),
@@ -32668,17 +32482,21 @@ function Provider({
   store,
   context,
   children,
-  serverState
+  serverState,
+  stabilityCheck = 'once',
+  noopCheck = 'once'
 }) {
-  const contextValue = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => {
+  const contextValue = react__WEBPACK_IMPORTED_MODULE_0__.useMemo(() => {
     const subscription = (0,_utils_Subscription__WEBPACK_IMPORTED_MODULE_2__.createSubscription)(store);
     return {
       store,
       subscription,
-      getServerState: serverState ? () => serverState : undefined
+      getServerState: serverState ? () => serverState : undefined,
+      stabilityCheck,
+      noopCheck
     };
-  }, [store, serverState]);
-  const previousState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => store.getState(), [store]);
+  }, [store, serverState, stabilityCheck, noopCheck]);
+  const previousState = react__WEBPACK_IMPORTED_MODULE_0__.useMemo(() => store.getState(), [store]);
   (0,_utils_useIsomorphicLayoutEffect__WEBPACK_IMPORTED_MODULE_3__.useIsomorphicLayoutEffect)(() => {
     const {
       subscription
@@ -32697,7 +32515,7 @@ function Provider({
   }, [contextValue, previousState]);
   const Context = context || _Context__WEBPACK_IMPORTED_MODULE_1__.ReactReduxContext; // @ts-ignore 'AnyAction' is assignable to the constraint of type 'A', but 'A' could be instantiated with a different subtype
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Context.Provider, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Context.Provider, {
     value: contextValue
   }, children);
 }
@@ -32715,7 +32533,7 @@ function Provider({
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "initializeConnect": () => (/* binding */ initializeConnect)
+/* harmony export */   initializeConnect: () => (/* binding */ initializeConnect)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -32723,7 +32541,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-is */ "./node_modules/react-redux/node_modules/react-is/index.js");
 /* harmony import */ var _connect_selectorFactory__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../connect/selectorFactory */ "./node_modules/react-redux/es/connect/selectorFactory.js");
 /* harmony import */ var _connect_mapDispatchToProps__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../connect/mapDispatchToProps */ "./node_modules/react-redux/es/connect/mapDispatchToProps.js");
 /* harmony import */ var _connect_mapStateToProps__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../connect/mapStateToProps */ "./node_modules/react-redux/es/connect/mapStateToProps.js");
@@ -32951,7 +32769,7 @@ function connect(mapStateToProps, mapDispatchToProps, mergeProps, {
     };
 
     function ConnectFunction(props) {
-      const [propsContext, reactReduxForwardedRef, wrapperProps] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useMemo)(() => {
+      const [propsContext, reactReduxForwardedRef, wrapperProps] = react__WEBPACK_IMPORTED_MODULE_3__.useMemo(() => {
         // Distinguish between actual "data" props that were passed to the wrapper component,
         // and values needed to control behavior (forwarded refs, alternate context instances).
         // To maintain the wrapperProps object reference, memoize this destructuring.
@@ -32962,14 +32780,14 @@ function connect(mapStateToProps, mapDispatchToProps, mergeProps, {
 
         return [props.context, reactReduxForwardedRef, wrapperProps];
       }, [props]);
-      const ContextToUse = (0,react__WEBPACK_IMPORTED_MODULE_3__.useMemo)(() => {
+      const ContextToUse = react__WEBPACK_IMPORTED_MODULE_3__.useMemo(() => {
         // Users may optionally pass in a custom context instance to use instead of our ReactReduxContext.
         // Memoize the check that determines which context instance we should use.
         return propsContext && propsContext.Consumer && // @ts-ignore
-        (0,react_is__WEBPACK_IMPORTED_MODULE_4__.isContextConsumer)( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(propsContext.Consumer, null)) ? propsContext : Context;
+        (0,react_is__WEBPACK_IMPORTED_MODULE_4__.isContextConsumer)( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(propsContext.Consumer, null)) ? propsContext : Context;
       }, [propsContext, Context]); // Retrieve the store and ancestor subscription via context, if available
 
-      const contextValue = (0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(ContextToUse); // The store _must_ exist as either a prop or in context.
+      const contextValue = react__WEBPACK_IMPORTED_MODULE_3__.useContext(ContextToUse); // The store _must_ exist as either a prop or in context.
       // We'll check to see if it _looks_ like a Redux store first.
       // This allows us to pass through a `store` prop that is just a plain value.
 
@@ -32983,12 +32801,12 @@ function connect(mapStateToProps, mapDispatchToProps, mergeProps, {
 
       const store = didStoreComeFromProps ? props.store : contextValue.store;
       const getServerState = didStoreComeFromContext ? contextValue.getServerState : store.getState;
-      const childPropsSelector = (0,react__WEBPACK_IMPORTED_MODULE_3__.useMemo)(() => {
+      const childPropsSelector = react__WEBPACK_IMPORTED_MODULE_3__.useMemo(() => {
         // The child props selector needs the store reference as an input.
         // Re-create this selector whenever the store changes.
         return (0,_connect_selectorFactory__WEBPACK_IMPORTED_MODULE_5__["default"])(store.dispatch, selectorFactoryOptions);
       }, [store]);
-      const [subscription, notifyNestedSubs] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useMemo)(() => {
+      const [subscription, notifyNestedSubs] = react__WEBPACK_IMPORTED_MODULE_3__.useMemo(() => {
         if (!shouldHandleStateChanges) return NO_SUBSCRIPTION_ARRAY; // This Subscription's source should match where store came from: props vs. context. A component
         // connected to the store via props shouldn't use subscription from context, or vice versa.
 
@@ -33002,7 +32820,7 @@ function connect(mapStateToProps, mapDispatchToProps, mergeProps, {
       }, [store, didStoreComeFromProps, contextValue]); // Determine what {store, subscription} value should be put into nested context, if necessary,
       // and memoize that value to avoid unnecessary context updates.
 
-      const overriddenContextValue = (0,react__WEBPACK_IMPORTED_MODULE_3__.useMemo)(() => {
+      const overriddenContextValue = react__WEBPACK_IMPORTED_MODULE_3__.useMemo(() => {
         if (didStoreComeFromProps) {
           // This component is directly subscribed to a store from props.
           // We don't want descendants reading from this store - pass down whatever
@@ -33017,20 +32835,20 @@ function connect(mapStateToProps, mapDispatchToProps, mergeProps, {
         });
       }, [didStoreComeFromProps, contextValue, subscription]); // Set up refs to coordinate values between the subscription effect and the render logic
 
-      const lastChildProps = (0,react__WEBPACK_IMPORTED_MODULE_3__.useRef)();
-      const lastWrapperProps = (0,react__WEBPACK_IMPORTED_MODULE_3__.useRef)(wrapperProps);
-      const childPropsFromStoreUpdate = (0,react__WEBPACK_IMPORTED_MODULE_3__.useRef)();
-      const renderIsScheduled = (0,react__WEBPACK_IMPORTED_MODULE_3__.useRef)(false);
-      const isProcessingDispatch = (0,react__WEBPACK_IMPORTED_MODULE_3__.useRef)(false);
-      const isMounted = (0,react__WEBPACK_IMPORTED_MODULE_3__.useRef)(false);
-      const latestSubscriptionCallbackError = (0,react__WEBPACK_IMPORTED_MODULE_3__.useRef)();
+      const lastChildProps = react__WEBPACK_IMPORTED_MODULE_3__.useRef();
+      const lastWrapperProps = react__WEBPACK_IMPORTED_MODULE_3__.useRef(wrapperProps);
+      const childPropsFromStoreUpdate = react__WEBPACK_IMPORTED_MODULE_3__.useRef();
+      const renderIsScheduled = react__WEBPACK_IMPORTED_MODULE_3__.useRef(false);
+      const isProcessingDispatch = react__WEBPACK_IMPORTED_MODULE_3__.useRef(false);
+      const isMounted = react__WEBPACK_IMPORTED_MODULE_3__.useRef(false);
+      const latestSubscriptionCallbackError = react__WEBPACK_IMPORTED_MODULE_3__.useRef();
       (0,_utils_useIsomorphicLayoutEffect__WEBPACK_IMPORTED_MODULE_10__.useIsomorphicLayoutEffect)(() => {
         isMounted.current = true;
         return () => {
           isMounted.current = false;
         };
       }, []);
-      const actualChildPropsSelector = (0,react__WEBPACK_IMPORTED_MODULE_3__.useMemo)(() => {
+      const actualChildPropsSelector = react__WEBPACK_IMPORTED_MODULE_3__.useMemo(() => {
         const selector = () => {
           // Tricky logic here:
           // - This render may have been triggered by a Redux store update that produced new child props
@@ -33054,7 +32872,7 @@ function connect(mapStateToProps, mapDispatchToProps, mergeProps, {
       // about useLayoutEffect in SSR, so we try to detect environment and fall back to
       // just useEffect instead to avoid the warning, since neither will run anyway.
 
-      const subscribeForReact = (0,react__WEBPACK_IMPORTED_MODULE_3__.useMemo)(() => {
+      const subscribeForReact = react__WEBPACK_IMPORTED_MODULE_3__.useMemo(() => {
         const subscribe = reactListener => {
           if (!subscription) {
             return () => {};
@@ -33090,23 +32908,23 @@ function connect(mapStateToProps, mapDispatchToProps, mergeProps, {
       }); // Now that all that's done, we can finally try to actually render the child component.
       // We memoize the elements for the rendered child component as an optimization.
 
-      const renderedWrappedComponent = (0,react__WEBPACK_IMPORTED_MODULE_3__.useMemo)(() => {
+      const renderedWrappedComponent = react__WEBPACK_IMPORTED_MODULE_3__.useMemo(() => {
         return (
           /*#__PURE__*/
           // @ts-ignore
-          react__WEBPACK_IMPORTED_MODULE_3___default().createElement(WrappedComponent, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, actualChildProps, {
+          react__WEBPACK_IMPORTED_MODULE_3__.createElement(WrappedComponent, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, actualChildProps, {
             ref: reactReduxForwardedRef
           }))
         );
       }, [reactReduxForwardedRef, WrappedComponent, actualChildProps]); // If React sees the exact same element reference as last time, it bails out of re-rendering
       // that child, same as if it was wrapped in React.memo() or returned false from shouldComponentUpdate.
 
-      const renderedChild = (0,react__WEBPACK_IMPORTED_MODULE_3__.useMemo)(() => {
+      const renderedChild = react__WEBPACK_IMPORTED_MODULE_3__.useMemo(() => {
         if (shouldHandleStateChanges) {
           // If this component is subscribed to store updates, we need to pass its own
           // subscription instance down to our descendants. That means rendering the same
           // Context instance, and putting a different value into the context.
-          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(ContextToUse.Provider, {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(ContextToUse.Provider, {
             value: overriddenContextValue
           }, renderedWrappedComponent);
         }
@@ -33116,7 +32934,7 @@ function connect(mapStateToProps, mapDispatchToProps, mergeProps, {
       return renderedChild;
     }
 
-    const _Connect = react__WEBPACK_IMPORTED_MODULE_3___default().memo(ConnectFunction);
+    const _Connect = react__WEBPACK_IMPORTED_MODULE_3__.memo(ConnectFunction);
 
     // Add a hacky cast to get the right output type
     const Connect = _Connect;
@@ -33124,9 +32942,9 @@ function connect(mapStateToProps, mapDispatchToProps, mergeProps, {
     Connect.displayName = ConnectFunction.displayName = displayName;
 
     if (forwardRef) {
-      const _forwarded = react__WEBPACK_IMPORTED_MODULE_3___default().forwardRef(function forwardConnectRef(props, ref) {
+      const _forwarded = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function forwardConnectRef(props, ref) {
         // @ts-ignore
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(Connect, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Connect, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
           reactReduxForwardedRef: ref
         }));
       });
@@ -33155,7 +32973,7 @@ function connect(mapStateToProps, mapDispatchToProps, mergeProps, {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createInvalidArgFactory": () => (/* binding */ createInvalidArgFactory)
+/* harmony export */   createInvalidArgFactory: () => (/* binding */ createInvalidArgFactory)
 /* harmony export */ });
 function createInvalidArgFactory(arg, name) {
   return (dispatch, options) => {
@@ -33173,7 +32991,7 @@ function createInvalidArgFactory(arg, name) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "mapDispatchToPropsFactory": () => (/* binding */ mapDispatchToPropsFactory)
+/* harmony export */   mapDispatchToPropsFactory: () => (/* binding */ mapDispatchToPropsFactory)
 /* harmony export */ });
 /* harmony import */ var _utils_bindActionCreators__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/bindActionCreators */ "./node_modules/react-redux/es/utils/bindActionCreators.js");
 /* harmony import */ var _wrapMapToProps__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./wrapMapToProps */ "./node_modules/react-redux/es/connect/wrapMapToProps.js");
@@ -33199,7 +33017,7 @@ function mapDispatchToPropsFactory(mapDispatchToProps) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "mapStateToPropsFactory": () => (/* binding */ mapStateToPropsFactory)
+/* harmony export */   mapStateToPropsFactory: () => (/* binding */ mapStateToPropsFactory)
 /* harmony export */ });
 /* harmony import */ var _wrapMapToProps__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./wrapMapToProps */ "./node_modules/react-redux/es/connect/wrapMapToProps.js");
 /* harmony import */ var _invalidArgFactory__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./invalidArgFactory */ "./node_modules/react-redux/es/connect/invalidArgFactory.js");
@@ -33220,9 +33038,9 @@ function mapStateToPropsFactory(mapStateToProps) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "defaultMergeProps": () => (/* binding */ defaultMergeProps),
-/* harmony export */   "mergePropsFactory": () => (/* binding */ mergePropsFactory),
-/* harmony export */   "wrapMergePropsFunc": () => (/* binding */ wrapMergePropsFunc)
+/* harmony export */   defaultMergeProps: () => (/* binding */ defaultMergeProps),
+/* harmony export */   mergePropsFactory: () => (/* binding */ mergePropsFactory),
+/* harmony export */   wrapMergePropsFunc: () => (/* binding */ wrapMergePropsFunc)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _utils_verifyPlainObject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/verifyPlainObject */ "./node_modules/react-redux/es/utils/verifyPlainObject.js");
@@ -33271,7 +33089,7 @@ function mergePropsFactory(mergeProps) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ finalPropsSelectorFactory),
-/* harmony export */   "pureFinalPropsSelectorFactory": () => (/* binding */ pureFinalPropsSelectorFactory)
+/* harmony export */   pureFinalPropsSelectorFactory: () => (/* binding */ pureFinalPropsSelectorFactory)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
 /* harmony import */ var _verifySubselectors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./verifySubselectors */ "./node_modules/react-redux/es/connect/verifySubselectors.js");
@@ -33401,9 +33219,9 @@ function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "getDependsOnOwnProps": () => (/* binding */ getDependsOnOwnProps),
-/* harmony export */   "wrapMapToPropsConstant": () => (/* binding */ wrapMapToPropsConstant),
-/* harmony export */   "wrapMapToPropsFunc": () => (/* binding */ wrapMapToPropsFunc)
+/* harmony export */   getDependsOnOwnProps: () => (/* binding */ getDependsOnOwnProps),
+/* harmony export */   wrapMapToPropsConstant: () => (/* binding */ wrapMapToPropsConstant),
+/* harmony export */   wrapMapToPropsFunc: () => (/* binding */ wrapMapToPropsFunc)
 /* harmony export */ });
 /* harmony import */ var _utils_verifyPlainObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/verifyPlainObject */ "./node_modules/react-redux/es/utils/verifyPlainObject.js");
 
@@ -33487,16 +33305,16 @@ function wrapMapToPropsFunc(mapToProps, methodName) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Provider": () => (/* reexport safe */ _components_Provider__WEBPACK_IMPORTED_MODULE_0__["default"]),
-/* harmony export */   "ReactReduxContext": () => (/* reexport safe */ _components_Context__WEBPACK_IMPORTED_MODULE_2__.ReactReduxContext),
-/* harmony export */   "connect": () => (/* reexport safe */ _components_connect__WEBPACK_IMPORTED_MODULE_1__["default"]),
-/* harmony export */   "createDispatchHook": () => (/* reexport safe */ _hooks_useDispatch__WEBPACK_IMPORTED_MODULE_3__.createDispatchHook),
-/* harmony export */   "createSelectorHook": () => (/* reexport safe */ _hooks_useSelector__WEBPACK_IMPORTED_MODULE_4__.createSelectorHook),
-/* harmony export */   "createStoreHook": () => (/* reexport safe */ _hooks_useStore__WEBPACK_IMPORTED_MODULE_5__.createStoreHook),
-/* harmony export */   "shallowEqual": () => (/* reexport safe */ _utils_shallowEqual__WEBPACK_IMPORTED_MODULE_6__["default"]),
-/* harmony export */   "useDispatch": () => (/* reexport safe */ _hooks_useDispatch__WEBPACK_IMPORTED_MODULE_3__.useDispatch),
-/* harmony export */   "useSelector": () => (/* reexport safe */ _hooks_useSelector__WEBPACK_IMPORTED_MODULE_4__.useSelector),
-/* harmony export */   "useStore": () => (/* reexport safe */ _hooks_useStore__WEBPACK_IMPORTED_MODULE_5__.useStore)
+/* harmony export */   Provider: () => (/* reexport safe */ _components_Provider__WEBPACK_IMPORTED_MODULE_0__["default"]),
+/* harmony export */   ReactReduxContext: () => (/* reexport safe */ _components_Context__WEBPACK_IMPORTED_MODULE_2__.ReactReduxContext),
+/* harmony export */   connect: () => (/* reexport safe */ _components_connect__WEBPACK_IMPORTED_MODULE_1__["default"]),
+/* harmony export */   createDispatchHook: () => (/* reexport safe */ _hooks_useDispatch__WEBPACK_IMPORTED_MODULE_3__.createDispatchHook),
+/* harmony export */   createSelectorHook: () => (/* reexport safe */ _hooks_useSelector__WEBPACK_IMPORTED_MODULE_4__.createSelectorHook),
+/* harmony export */   createStoreHook: () => (/* reexport safe */ _hooks_useStore__WEBPACK_IMPORTED_MODULE_5__.createStoreHook),
+/* harmony export */   shallowEqual: () => (/* reexport safe */ _utils_shallowEqual__WEBPACK_IMPORTED_MODULE_6__["default"]),
+/* harmony export */   useDispatch: () => (/* reexport safe */ _hooks_useDispatch__WEBPACK_IMPORTED_MODULE_3__.useDispatch),
+/* harmony export */   useSelector: () => (/* reexport safe */ _hooks_useSelector__WEBPACK_IMPORTED_MODULE_4__.useSelector),
+/* harmony export */   useStore: () => (/* reexport safe */ _hooks_useStore__WEBPACK_IMPORTED_MODULE_5__.useStore)
 /* harmony export */ });
 /* harmony import */ var _components_Provider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Provider */ "./node_modules/react-redux/es/components/Provider.js");
 /* harmony import */ var _components_connect__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/connect */ "./node_modules/react-redux/es/components/connect.js");
@@ -33526,8 +33344,8 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createDispatchHook": () => (/* binding */ createDispatchHook),
-/* harmony export */   "useDispatch": () => (/* binding */ useDispatch)
+/* harmony export */   createDispatchHook: () => (/* binding */ createDispatchHook),
+/* harmony export */   useDispatch: () => (/* binding */ useDispatch)
 /* harmony export */ });
 /* harmony import */ var _components_Context__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Context */ "./node_modules/react-redux/es/components/Context.js");
 /* harmony import */ var _useStore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./useStore */ "./node_modules/react-redux/es/hooks/useStore.js");
@@ -33583,7 +33401,8 @@ const useDispatch = /*#__PURE__*/createDispatchHook();
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useReduxContext": () => (/* binding */ useReduxContext)
+/* harmony export */   createReduxContextHook: () => (/* binding */ createReduxContextHook),
+/* harmony export */   useReduxContext: () => (/* binding */ useReduxContext)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -33591,6 +33410,24 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+/**
+ * Hook factory, which creates a `useReduxContext` hook bound to a given context. This is a low-level
+ * hook that you should usually not need to call directly.
+ *
+ * @param {React.Context} [context=ReactReduxContext] Context passed to your `<Provider>`.
+ * @returns {Function} A `useReduxContext` hook bound to the specified context.
+ */
+function createReduxContextHook(context = _components_Context__WEBPACK_IMPORTED_MODULE_1__.ReactReduxContext) {
+  return function useReduxContext() {
+    const contextValue = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(context);
+
+    if ( true && !contextValue) {
+      throw new Error('could not find react-redux context value; please ensure the component is wrapped in a <Provider>');
+    }
+
+    return contextValue;
+  };
+}
 /**
  * A hook to access the value of the `ReactReduxContext`. This is a low-level
  * hook that you should usually not need to call directly.
@@ -33607,15 +33444,8 @@ __webpack_require__.r(__webpack_exports__);
  *   return <div>{store.getState()}</div>
  * }
  */
-function useReduxContext() {
-  const contextValue = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_components_Context__WEBPACK_IMPORTED_MODULE_1__.ReactReduxContext);
 
-  if ( true && !contextValue) {
-    throw new Error('could not find react-redux context value; please ensure the component is wrapped in a <Provider>');
-  }
-
-  return contextValue;
-}
+const useReduxContext = /*#__PURE__*/createReduxContextHook();
 
 /***/ }),
 
@@ -33627,9 +33457,9 @@ function useReduxContext() {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createSelectorHook": () => (/* binding */ createSelectorHook),
-/* harmony export */   "initializeUseSelector": () => (/* binding */ initializeUseSelector),
-/* harmony export */   "useSelector": () => (/* binding */ useSelector)
+/* harmony export */   createSelectorHook: () => (/* binding */ createSelectorHook),
+/* harmony export */   initializeUseSelector: () => (/* binding */ initializeUseSelector),
+/* harmony export */   useSelector: () => (/* binding */ useSelector)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -33655,8 +33485,16 @@ const refEquality = (a, b) => a === b;
 
 
 function createSelectorHook(context = _components_Context__WEBPACK_IMPORTED_MODULE_2__.ReactReduxContext) {
-  const useReduxContext = context === _components_Context__WEBPACK_IMPORTED_MODULE_2__.ReactReduxContext ? _useReduxContext__WEBPACK_IMPORTED_MODULE_1__.useReduxContext : () => (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(context);
-  return function useSelector(selector, equalityFn = refEquality) {
+  const useReduxContext = context === _components_Context__WEBPACK_IMPORTED_MODULE_2__.ReactReduxContext ? _useReduxContext__WEBPACK_IMPORTED_MODULE_1__.useReduxContext : (0,_useReduxContext__WEBPACK_IMPORTED_MODULE_1__.createReduxContextHook)(context);
+  return function useSelector(selector, equalityFnOrOptions = {}) {
+    const {
+      equalityFn = refEquality,
+      stabilityCheck = undefined,
+      noopCheck = undefined
+    } = typeof equalityFnOrOptions === 'function' ? {
+      equalityFn: equalityFnOrOptions
+    } : equalityFnOrOptions;
+
     if (true) {
       if (!selector) {
         throw new Error(`You must pass a selector to useSelector`);
@@ -33674,9 +33512,72 @@ function createSelectorHook(context = _components_Context__WEBPACK_IMPORTED_MODU
     const {
       store,
       subscription,
-      getServerState
+      getServerState,
+      stabilityCheck: globalStabilityCheck,
+      noopCheck: globalNoopCheck
     } = useReduxContext();
-    const selectedState = useSyncExternalStoreWithSelector(subscription.addNestedSub, store.getState, getServerState || store.getState, selector, equalityFn);
+    const firstRun = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(true);
+    const wrappedSelector = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)({
+      [selector.name](state) {
+        const selected = selector(state);
+
+        if (true) {
+          const finalStabilityCheck = typeof stabilityCheck === 'undefined' ? globalStabilityCheck : stabilityCheck;
+
+          if (finalStabilityCheck === 'always' || finalStabilityCheck === 'once' && firstRun.current) {
+            const toCompare = selector(state);
+
+            if (!equalityFn(selected, toCompare)) {
+              let stack = undefined;
+
+              try {
+                throw new Error();
+              } catch (e) {
+                ;
+                ({
+                  stack
+                } = e);
+              }
+
+              console.warn('Selector ' + (selector.name || 'unknown') + ' returned a different result when called with the same parameters. This can lead to unnecessary rerenders.' + '\nSelectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization', {
+                state,
+                selected,
+                selected2: toCompare,
+                stack
+              });
+            }
+          }
+
+          const finalNoopCheck = typeof noopCheck === 'undefined' ? globalNoopCheck : noopCheck;
+
+          if (finalNoopCheck === 'always' || finalNoopCheck === 'once' && firstRun.current) {
+            // @ts-ignore
+            if (selected === state) {
+              let stack = undefined;
+
+              try {
+                throw new Error();
+              } catch (e) {
+                ;
+                ({
+                  stack
+                } = e);
+              }
+
+              console.warn('Selector ' + (selector.name || 'unknown') + ' returned the root state when called. This can lead to unnecessary rerenders.' + '\nSelectors that return the entire state are almost certainly a mistake, as they will cause a rerender whenever *anything* in state changes.', {
+                stack
+              });
+            }
+          }
+
+          if (firstRun.current) firstRun.current = false;
+        }
+
+        return selected;
+      }
+
+    }[selector.name], [selector, globalStabilityCheck, stabilityCheck]);
+    const selectedState = useSyncExternalStoreWithSelector(subscription.addNestedSub, store.getState, getServerState || store.getState, wrappedSelector, equalityFn);
     (0,react__WEBPACK_IMPORTED_MODULE_0__.useDebugValue)(selectedState);
     return selectedState;
   };
@@ -33717,14 +33618,11 @@ const useSelector = /*#__PURE__*/createSelectorHook();
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createStoreHook": () => (/* binding */ createStoreHook),
-/* harmony export */   "useStore": () => (/* binding */ useStore)
+/* harmony export */   createStoreHook: () => (/* binding */ createStoreHook),
+/* harmony export */   useStore: () => (/* binding */ useStore)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Context__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Context */ "./node_modules/react-redux/es/components/Context.js");
-/* harmony import */ var _useReduxContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./useReduxContext */ "./node_modules/react-redux/es/hooks/useReduxContext.js");
-
+/* harmony import */ var _components_Context__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Context */ "./node_modules/react-redux/es/components/Context.js");
+/* harmony import */ var _useReduxContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./useReduxContext */ "./node_modules/react-redux/es/hooks/useReduxContext.js");
 
 
 /**
@@ -33734,9 +33632,10 @@ __webpack_require__.r(__webpack_exports__);
  * @returns {Function} A `useStore` hook bound to the specified context.
  */
 
-function createStoreHook(context = _components_Context__WEBPACK_IMPORTED_MODULE_1__.ReactReduxContext) {
+function createStoreHook(context = _components_Context__WEBPACK_IMPORTED_MODULE_0__.ReactReduxContext) {
   const useReduxContext = // @ts-ignore
-  context === _components_Context__WEBPACK_IMPORTED_MODULE_1__.ReactReduxContext ? _useReduxContext__WEBPACK_IMPORTED_MODULE_2__.useReduxContext : () => (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(context);
+  context === _components_Context__WEBPACK_IMPORTED_MODULE_0__.ReactReduxContext ? _useReduxContext__WEBPACK_IMPORTED_MODULE_1__.useReduxContext : // @ts-ignore
+  (0,_useReduxContext__WEBPACK_IMPORTED_MODULE_1__.createReduxContextHook)(context);
   return function useStore() {
     const {
       store
@@ -33773,17 +33672,17 @@ const useStore = /*#__PURE__*/createStoreHook();
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Provider": () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.Provider),
-/* harmony export */   "ReactReduxContext": () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.ReactReduxContext),
-/* harmony export */   "batch": () => (/* reexport safe */ _utils_reactBatchedUpdates__WEBPACK_IMPORTED_MODULE_2__.unstable_batchedUpdates),
-/* harmony export */   "connect": () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.connect),
-/* harmony export */   "createDispatchHook": () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.createDispatchHook),
-/* harmony export */   "createSelectorHook": () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.createSelectorHook),
-/* harmony export */   "createStoreHook": () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.createStoreHook),
-/* harmony export */   "shallowEqual": () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.shallowEqual),
-/* harmony export */   "useDispatch": () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.useDispatch),
-/* harmony export */   "useSelector": () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.useSelector),
-/* harmony export */   "useStore": () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.useStore)
+/* harmony export */   Provider: () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.Provider),
+/* harmony export */   ReactReduxContext: () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.ReactReduxContext),
+/* harmony export */   batch: () => (/* reexport safe */ _utils_reactBatchedUpdates__WEBPACK_IMPORTED_MODULE_2__.unstable_batchedUpdates),
+/* harmony export */   connect: () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.connect),
+/* harmony export */   createDispatchHook: () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.createDispatchHook),
+/* harmony export */   createSelectorHook: () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.createSelectorHook),
+/* harmony export */   createStoreHook: () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.createStoreHook),
+/* harmony export */   shallowEqual: () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.shallowEqual),
+/* harmony export */   useDispatch: () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.useDispatch),
+/* harmony export */   useSelector: () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.useSelector),
+/* harmony export */   useStore: () => (/* reexport safe */ _exports__WEBPACK_IMPORTED_MODULE_6__.useStore)
 /* harmony export */ });
 /* harmony import */ var use_sync_external_store_shim__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! use-sync-external-store/shim */ "./node_modules/use-sync-external-store/shim/index.js");
 /* harmony import */ var use_sync_external_store_shim_with_selector__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! use-sync-external-store/shim/with-selector */ "./node_modules/use-sync-external-store/shim/with-selector.js");
@@ -33830,7 +33729,7 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createSubscription": () => (/* binding */ createSubscription)
+/* harmony export */   createSubscription: () => (/* binding */ createSubscription)
 /* harmony export */ });
 /* harmony import */ var _batch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./batch */ "./node_modules/react-redux/es/utils/batch.js");
  // encapsulates the subscription logic for connecting a component to the redux store, as
@@ -33912,11 +33811,24 @@ const nullListeners = {
 };
 function createSubscription(store, parentSub) {
   let unsubscribe;
-  let listeners = nullListeners;
+  let listeners = nullListeners; // Reasons to keep the subscription active
+
+  let subscriptionsAmount = 0; // Is this specific subscription subscribed (or only nested ones?)
+
+  let selfSubscribed = false;
 
   function addNestedSub(listener) {
     trySubscribe();
-    return listeners.subscribe(listener);
+    const cleanupListener = listeners.subscribe(listener); // cleanup nested sub
+
+    let removed = false;
+    return () => {
+      if (!removed) {
+        removed = true;
+        cleanupListener();
+        tryUnsubscribe();
+      }
+    };
   }
 
   function notifyNestedSubs() {
@@ -33930,10 +33842,12 @@ function createSubscription(store, parentSub) {
   }
 
   function isSubscribed() {
-    return Boolean(unsubscribe);
+    return selfSubscribed;
   }
 
   function trySubscribe() {
+    subscriptionsAmount++;
+
     if (!unsubscribe) {
       unsubscribe = parentSub ? parentSub.addNestedSub(handleChangeWrapper) : store.subscribe(handleChangeWrapper);
       listeners = createListenerCollection();
@@ -33941,11 +33855,27 @@ function createSubscription(store, parentSub) {
   }
 
   function tryUnsubscribe() {
-    if (unsubscribe) {
+    subscriptionsAmount--;
+
+    if (unsubscribe && subscriptionsAmount === 0) {
       unsubscribe();
       unsubscribe = undefined;
       listeners.clear();
       listeners = nullListeners;
+    }
+  }
+
+  function trySubscribeSelf() {
+    if (!selfSubscribed) {
+      selfSubscribed = true;
+      trySubscribe();
+    }
+  }
+
+  function tryUnsubscribeSelf() {
+    if (selfSubscribed) {
+      selfSubscribed = false;
+      tryUnsubscribe();
     }
   }
 
@@ -33954,8 +33884,8 @@ function createSubscription(store, parentSub) {
     notifyNestedSubs,
     handleChangeWrapper,
     isSubscribed,
-    trySubscribe,
-    tryUnsubscribe,
+    trySubscribe: trySubscribeSelf,
+    tryUnsubscribe: tryUnsubscribeSelf,
     getListeners: () => listeners
   };
   return subscription;
@@ -33971,8 +33901,8 @@ function createSubscription(store, parentSub) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "getBatch": () => (/* binding */ getBatch),
-/* harmony export */   "setBatch": () => (/* binding */ setBatch)
+/* harmony export */   getBatch: () => (/* binding */ getBatch),
+/* harmony export */   setBatch: () => (/* binding */ setBatch)
 /* harmony export */ });
 // Default to a dummy "batch" implementation that just runs the callback
 function defaultNoopBatch(callback) {
@@ -34050,7 +33980,7 @@ function isPlainObject(obj) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "unstable_batchedUpdates": () => (/* reexport safe */ react_dom__WEBPACK_IMPORTED_MODULE_0__.unstable_batchedUpdates)
+/* harmony export */   unstable_batchedUpdates: () => (/* reexport safe */ react_dom__WEBPACK_IMPORTED_MODULE_0__.unstable_batchedUpdates)
 /* harmony export */ });
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 
@@ -34105,8 +34035,8 @@ function shallowEqual(objA, objB) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "canUseDOM": () => (/* binding */ canUseDOM),
-/* harmony export */   "useIsomorphicLayoutEffect": () => (/* binding */ useIsomorphicLayoutEffect)
+/* harmony export */   canUseDOM: () => (/* binding */ canUseDOM),
+/* harmony export */   useIsomorphicLayoutEffect: () => (/* binding */ useIsomorphicLayoutEffect)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -34133,7 +34063,7 @@ const useIsomorphicLayoutEffect = canUseDOM ? react__WEBPACK_IMPORTED_MODULE_0__
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "notInitialized": () => (/* binding */ notInitialized)
+/* harmony export */   notInitialized: () => (/* binding */ notInitialized)
 /* harmony export */ });
 const notInitialized = () => {
   throw new Error('uSES not initialized!');
@@ -34197,6 +34127,252 @@ function warning(message) {
   /* eslint-enable no-empty */
 
 }
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/node_modules/react-is/cjs/react-is.development.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/react-redux/node_modules/react-is/cjs/react-is.development.js ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+/**
+ * @license React
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+if (true) {
+  (function() {
+'use strict';
+
+// ATTENTION
+// When adding new symbols to this file,
+// Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
+// The Symbol used to tag the ReactElement-like types.
+var REACT_ELEMENT_TYPE = Symbol.for('react.element');
+var REACT_PORTAL_TYPE = Symbol.for('react.portal');
+var REACT_FRAGMENT_TYPE = Symbol.for('react.fragment');
+var REACT_STRICT_MODE_TYPE = Symbol.for('react.strict_mode');
+var REACT_PROFILER_TYPE = Symbol.for('react.profiler');
+var REACT_PROVIDER_TYPE = Symbol.for('react.provider');
+var REACT_CONTEXT_TYPE = Symbol.for('react.context');
+var REACT_SERVER_CONTEXT_TYPE = Symbol.for('react.server_context');
+var REACT_FORWARD_REF_TYPE = Symbol.for('react.forward_ref');
+var REACT_SUSPENSE_TYPE = Symbol.for('react.suspense');
+var REACT_SUSPENSE_LIST_TYPE = Symbol.for('react.suspense_list');
+var REACT_MEMO_TYPE = Symbol.for('react.memo');
+var REACT_LAZY_TYPE = Symbol.for('react.lazy');
+var REACT_OFFSCREEN_TYPE = Symbol.for('react.offscreen');
+
+// -----------------------------------------------------------------------------
+
+var enableScopeAPI = false; // Experimental Create Event Handle API.
+var enableCacheElement = false;
+var enableTransitionTracing = false; // No known bugs, but needs performance testing
+
+var enableLegacyHidden = false; // Enables unstable_avoidThisFallback feature in Fiber
+// stuff. Intended to enable React core members to more easily debug scheduling
+// issues in DEV builds.
+
+var enableDebugTracing = false; // Track which Fiber(s) schedule render work.
+
+var REACT_MODULE_REFERENCE;
+
+{
+  REACT_MODULE_REFERENCE = Symbol.for('react.module.reference');
+}
+
+function isValidElementType(type) {
+  if (typeof type === 'string' || typeof type === 'function') {
+    return true;
+  } // Note: typeof might be other than 'symbol' or 'number' (e.g. if it's a polyfill).
+
+
+  if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing  || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden  || type === REACT_OFFSCREEN_TYPE || enableScopeAPI  || enableCacheElement  || enableTransitionTracing ) {
+    return true;
+  }
+
+  if (typeof type === 'object' && type !== null) {
+    if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || // This needs to include all possible module reference object
+    // types supported by any Flight configuration anywhere since
+    // we don't know which Flight build this will end up being used
+    // with.
+    type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== undefined) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function typeOf(object) {
+  if (typeof object === 'object' && object !== null) {
+    var $$typeof = object.$$typeof;
+
+    switch ($$typeof) {
+      case REACT_ELEMENT_TYPE:
+        var type = object.type;
+
+        switch (type) {
+          case REACT_FRAGMENT_TYPE:
+          case REACT_PROFILER_TYPE:
+          case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
+          case REACT_SUSPENSE_LIST_TYPE:
+            return type;
+
+          default:
+            var $$typeofType = type && type.$$typeof;
+
+            switch ($$typeofType) {
+              case REACT_SERVER_CONTEXT_TYPE:
+              case REACT_CONTEXT_TYPE:
+              case REACT_FORWARD_REF_TYPE:
+              case REACT_LAZY_TYPE:
+              case REACT_MEMO_TYPE:
+              case REACT_PROVIDER_TYPE:
+                return $$typeofType;
+
+              default:
+                return $$typeof;
+            }
+
+        }
+
+      case REACT_PORTAL_TYPE:
+        return $$typeof;
+    }
+  }
+
+  return undefined;
+}
+var ContextConsumer = REACT_CONTEXT_TYPE;
+var ContextProvider = REACT_PROVIDER_TYPE;
+var Element = REACT_ELEMENT_TYPE;
+var ForwardRef = REACT_FORWARD_REF_TYPE;
+var Fragment = REACT_FRAGMENT_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
+var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
+var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
+var SuspenseList = REACT_SUSPENSE_LIST_TYPE;
+var hasWarnedAboutDeprecatedIsAsyncMode = false;
+var hasWarnedAboutDeprecatedIsConcurrentMode = false; // AsyncMode should be deprecated
+
+function isAsyncMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+      hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+
+      console['warn']('The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 18+.');
+    }
+  }
+
+  return false;
+}
+function isConcurrentMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsConcurrentMode) {
+      hasWarnedAboutDeprecatedIsConcurrentMode = true; // Using console['warn'] to evade Babel and ESLint
+
+      console['warn']('The ReactIs.isConcurrentMode() alias has been deprecated, ' + 'and will be removed in React 18+.');
+    }
+  }
+
+  return false;
+}
+function isContextConsumer(object) {
+  return typeOf(object) === REACT_CONTEXT_TYPE;
+}
+function isContextProvider(object) {
+  return typeOf(object) === REACT_PROVIDER_TYPE;
+}
+function isElement(object) {
+  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+}
+function isForwardRef(object) {
+  return typeOf(object) === REACT_FORWARD_REF_TYPE;
+}
+function isFragment(object) {
+  return typeOf(object) === REACT_FRAGMENT_TYPE;
+}
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
+}
+function isPortal(object) {
+  return typeOf(object) === REACT_PORTAL_TYPE;
+}
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
+function isStrictMode(object) {
+  return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
+}
+function isSuspenseList(object) {
+  return typeOf(object) === REACT_SUSPENSE_LIST_TYPE;
+}
+
+exports.ContextConsumer = ContextConsumer;
+exports.ContextProvider = ContextProvider;
+exports.Element = Element;
+exports.ForwardRef = ForwardRef;
+exports.Fragment = Fragment;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
+exports.Portal = Portal;
+exports.Profiler = Profiler;
+exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
+exports.SuspenseList = SuspenseList;
+exports.isAsyncMode = isAsyncMode;
+exports.isConcurrentMode = isConcurrentMode;
+exports.isContextConsumer = isContextConsumer;
+exports.isContextProvider = isContextProvider;
+exports.isElement = isElement;
+exports.isForwardRef = isForwardRef;
+exports.isFragment = isFragment;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
+exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
+exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
+exports.isSuspenseList = isSuspenseList;
+exports.isValidElementType = isValidElementType;
+exports.typeOf = typeOf;
+  })();
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/react-redux/node_modules/react-is/index.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react-redux/node_modules/react-is/index.js ***!
+  \*****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+
+
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-redux/node_modules/react-is/cjs/react-is.development.js");
+}
+
 
 /***/ }),
 
@@ -38357,13 +38533,13 @@ thunk.withExtraArgument = createThunkMiddleware;
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "__DO_NOT_USE__ActionTypes": () => (/* binding */ ActionTypes),
-/* harmony export */   "applyMiddleware": () => (/* binding */ applyMiddleware),
-/* harmony export */   "bindActionCreators": () => (/* binding */ bindActionCreators),
-/* harmony export */   "combineReducers": () => (/* binding */ combineReducers),
-/* harmony export */   "compose": () => (/* binding */ compose),
-/* harmony export */   "createStore": () => (/* binding */ createStore),
-/* harmony export */   "legacy_createStore": () => (/* binding */ legacy_createStore)
+/* harmony export */   __DO_NOT_USE__ActionTypes: () => (/* binding */ ActionTypes),
+/* harmony export */   applyMiddleware: () => (/* binding */ applyMiddleware),
+/* harmony export */   bindActionCreators: () => (/* binding */ bindActionCreators),
+/* harmony export */   combineReducers: () => (/* binding */ combineReducers),
+/* harmony export */   compose: () => (/* binding */ compose),
+/* harmony export */   createStore: () => (/* binding */ createStore),
+/* harmony export */   legacy_createStore: () => (/* binding */ legacy_createStore)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
 
@@ -39083,9 +39259,9 @@ function applyMiddleware() {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createCacheKeyComparator": () => (/* binding */ createCacheKeyComparator),
-/* harmony export */   "defaultEqualityCheck": () => (/* binding */ defaultEqualityCheck),
-/* harmony export */   "defaultMemoize": () => (/* binding */ defaultMemoize)
+/* harmony export */   createCacheKeyComparator: () => (/* binding */ createCacheKeyComparator),
+/* harmony export */   defaultEqualityCheck: () => (/* binding */ defaultEqualityCheck),
+/* harmony export */   defaultMemoize: () => (/* binding */ defaultMemoize)
 /* harmony export */ });
 // Cache implementation based on Erik Rasmussen's `lru-memoize`:
 // https://github.com/erikras/lru-memoize
@@ -39245,11 +39421,11 @@ function defaultMemoize(func, equalityCheckOrOptions) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createSelector": () => (/* binding */ createSelector),
-/* harmony export */   "createSelectorCreator": () => (/* binding */ createSelectorCreator),
-/* harmony export */   "createStructuredSelector": () => (/* binding */ createStructuredSelector),
-/* harmony export */   "defaultEqualityCheck": () => (/* reexport safe */ _defaultMemoize__WEBPACK_IMPORTED_MODULE_0__.defaultEqualityCheck),
-/* harmony export */   "defaultMemoize": () => (/* reexport safe */ _defaultMemoize__WEBPACK_IMPORTED_MODULE_0__.defaultMemoize)
+/* harmony export */   createSelector: () => (/* binding */ createSelector),
+/* harmony export */   createSelectorCreator: () => (/* binding */ createSelectorCreator),
+/* harmony export */   createStructuredSelector: () => (/* binding */ createStructuredSelector),
+/* harmony export */   defaultEqualityCheck: () => (/* reexport safe */ _defaultMemoize__WEBPACK_IMPORTED_MODULE_0__.defaultEqualityCheck),
+/* harmony export */   defaultMemoize: () => (/* reexport safe */ _defaultMemoize__WEBPACK_IMPORTED_MODULE_0__.defaultMemoize)
 /* harmony export */ });
 /* harmony import */ var _defaultMemoize__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defaultMemoize */ "./node_modules/reselect/es/defaultMemoize.js");
 
@@ -40054,12 +40230,12 @@ if (false) {} else {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.App = void 0;
 const jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+const react_redux_1 = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 const configureStore_1 = __webpack_require__(/*! ./store/configureStore */ "./src/store/configureStore.ts");
-__webpack_require__(/*! ./styles.css */ "./src/styles.css");
 const NewTaskBar_1 = __webpack_require__(/*! ./modules/NewTaskBar */ "./src/modules/NewTaskBar.tsx");
 const TaskList_1 = __webpack_require__(/*! ./modules/TaskList */ "./src/modules/TaskList.tsx");
-const react_redux_1 = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 const NotifierContainer_1 = __webpack_require__(/*! ./modules/NotifierContainer */ "./src/modules/NotifierContainer.tsx");
+__webpack_require__(/*! ./styles.css */ "./src/styles.css");
 const App = () => {
     return ((0, jsx_runtime_1.jsx)("div", { className: "root-container", children: (0, jsx_runtime_1.jsxs)(react_redux_1.Provider, { store: configureStore_1.store, children: [(0, jsx_runtime_1.jsx)("h3", { children: "\u0421\u043F\u0438\u0441\u043E\u043A \u0437\u0430\u0434\u0430\u0447" }), (0, jsx_runtime_1.jsx)(NewTaskBar_1.NewTaskBar, {}), (0, jsx_runtime_1.jsx)(TaskList_1.TaskList, {}), (0, jsx_runtime_1.jsx)(NotifierContainer_1.NotifierContainer, {})] }) }));
 };
@@ -40141,8 +40317,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Input = void 0;
 const jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 const react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-__webpack_require__(/*! ./styles.css */ "./src/components/styles.css");
 const helpers_1 = __webpack_require__(/*! src/utils/helpers */ "./src/utils/helpers.ts");
+__webpack_require__(/*! ./styles.css */ "./src/components/styles.css");
 const Input = ({ value, onChange, disabledMessage, disabled, }) => {
     const handleChange = (event) => {
         const val = event.target.value;
@@ -40235,11 +40411,11 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.NewTaskBar = void 0;
 const jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 const react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+const react_redux_1 = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+const taskSlice_1 = __webpack_require__(/*! src/store/taskSlice */ "./src/store/taskSlice.ts");
 const AddButton_1 = __webpack_require__(/*! src/components/AddButton */ "./src/components/AddButton.tsx");
 const Input_1 = __webpack_require__(/*! src/components/Input */ "./src/components/Input.tsx");
 const helpers_1 = __webpack_require__(/*! src/utils/helpers */ "./src/utils/helpers.ts");
-const react_redux_1 = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-const taskSlice_1 = __webpack_require__(/*! src/store/taskSlice */ "./src/store/taskSlice.ts");
 __webpack_require__(/*! ./styles.css */ "./src/modules/styles.css");
 const NewTaskBar = () => {
     const [value, setValue] = (0, react_1.useState)('');
@@ -40270,8 +40446,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.NotifierContainer = void 0;
 const jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 const react_redux_1 = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-const Notifier_1 = __webpack_require__(/*! ../components/Notifier */ "./src/components/Notifier.tsx");
 const taskSlice_1 = __webpack_require__(/*! ../store/taskSlice */ "./src/store/taskSlice.ts");
+const Notifier_1 = __webpack_require__(/*! ../components/Notifier */ "./src/components/Notifier.tsx");
 const NotifierContainer = () => {
     const dispatch = (0, react_redux_1.useDispatch)();
     const notification = (0, react_redux_1.useSelector)(taskSlice_1.getNotification);
@@ -41003,26 +41179,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _defineProperty_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defineProperty.js */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 
-function ownKeys(object, enumerableOnly) {
-  var keys = Object.keys(object);
+function ownKeys(e, r) {
+  var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
-    var symbols = Object.getOwnPropertySymbols(object);
-    enumerableOnly && (symbols = symbols.filter(function (sym) {
-      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
-    })), keys.push.apply(keys, symbols);
+    var o = Object.getOwnPropertySymbols(e);
+    r && (o = o.filter(function (r) {
+      return Object.getOwnPropertyDescriptor(e, r).enumerable;
+    })), t.push.apply(t, o);
   }
-  return keys;
+  return t;
 }
-function _objectSpread2(target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = null != arguments[i] ? arguments[i] : {};
-    i % 2 ? ownKeys(Object(source), !0).forEach(function (key) {
-      (0,_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) {
-      Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+function _objectSpread2(e) {
+  for (var r = 1; r < arguments.length; r++) {
+    var t = null != arguments[r] ? arguments[r] : {};
+    r % 2 ? ownKeys(Object(t), !0).forEach(function (r) {
+      (0,_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(e, r, t[r]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) {
+      Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r));
     });
   }
-  return target;
+  return e;
 }
 
 /***/ }),
@@ -41060,19 +41236,19 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _toPrimitive)
+/* harmony export */   "default": () => (/* binding */ toPrimitive)
 /* harmony export */ });
 /* harmony import */ var _typeof_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./typeof.js */ "./node_modules/@babel/runtime/helpers/esm/typeof.js");
 
-function _toPrimitive(input, hint) {
-  if ((0,_typeof_js__WEBPACK_IMPORTED_MODULE_0__["default"])(input) !== "object" || input === null) return input;
-  var prim = input[Symbol.toPrimitive];
-  if (prim !== undefined) {
-    var res = prim.call(input, hint || "default");
-    if ((0,_typeof_js__WEBPACK_IMPORTED_MODULE_0__["default"])(res) !== "object") return res;
+function toPrimitive(t, r) {
+  if ("object" != (0,_typeof_js__WEBPACK_IMPORTED_MODULE_0__["default"])(t) || !t) return t;
+  var e = t[Symbol.toPrimitive];
+  if (void 0 !== e) {
+    var i = e.call(t, r || "default");
+    if ("object" != (0,_typeof_js__WEBPACK_IMPORTED_MODULE_0__["default"])(i)) return i;
     throw new TypeError("@@toPrimitive must return a primitive value.");
   }
-  return (hint === "string" ? String : Number)(input);
+  return ("string" === r ? String : Number)(t);
 }
 
 /***/ }),
@@ -41085,15 +41261,15 @@ function _toPrimitive(input, hint) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _toPropertyKey)
+/* harmony export */   "default": () => (/* binding */ toPropertyKey)
 /* harmony export */ });
 /* harmony import */ var _typeof_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./typeof.js */ "./node_modules/@babel/runtime/helpers/esm/typeof.js");
 /* harmony import */ var _toPrimitive_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./toPrimitive.js */ "./node_modules/@babel/runtime/helpers/esm/toPrimitive.js");
 
 
-function _toPropertyKey(arg) {
-  var key = (0,_toPrimitive_js__WEBPACK_IMPORTED_MODULE_1__["default"])(arg, "string");
-  return (0,_typeof_js__WEBPACK_IMPORTED_MODULE_0__["default"])(key) === "symbol" ? key : String(key);
+function toPropertyKey(t) {
+  var i = (0,_toPrimitive_js__WEBPACK_IMPORTED_MODULE_1__["default"])(t, "string");
+  return "symbol" == (0,_typeof_js__WEBPACK_IMPORTED_MODULE_0__["default"])(i) ? i : i + "";
 }
 
 /***/ }),
@@ -41108,14 +41284,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ _typeof)
 /* harmony export */ });
-function _typeof(obj) {
+function _typeof(o) {
   "@babel/helpers - typeof";
 
-  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
-    return typeof obj;
-  } : function (obj) {
-    return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-  }, _typeof(obj);
+  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) {
+    return typeof o;
+  } : function (o) {
+    return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+  }, _typeof(o);
 }
 
 /***/ }),
@@ -41128,28 +41304,28 @@ function _typeof(obj) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Immer": () => (/* binding */ un),
-/* harmony export */   "applyPatches": () => (/* binding */ pn),
-/* harmony export */   "castDraft": () => (/* binding */ K),
-/* harmony export */   "castImmutable": () => (/* binding */ $),
-/* harmony export */   "createDraft": () => (/* binding */ ln),
-/* harmony export */   "current": () => (/* binding */ R),
+/* harmony export */   Immer: () => (/* binding */ un),
+/* harmony export */   applyPatches: () => (/* binding */ pn),
+/* harmony export */   castDraft: () => (/* binding */ K),
+/* harmony export */   castImmutable: () => (/* binding */ $),
+/* harmony export */   createDraft: () => (/* binding */ ln),
+/* harmony export */   current: () => (/* binding */ R),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "enableAllPlugins": () => (/* binding */ J),
-/* harmony export */   "enableES5": () => (/* binding */ F),
-/* harmony export */   "enableMapSet": () => (/* binding */ C),
-/* harmony export */   "enablePatches": () => (/* binding */ T),
-/* harmony export */   "finishDraft": () => (/* binding */ dn),
-/* harmony export */   "freeze": () => (/* binding */ d),
-/* harmony export */   "immerable": () => (/* binding */ L),
-/* harmony export */   "isDraft": () => (/* binding */ r),
-/* harmony export */   "isDraftable": () => (/* binding */ t),
-/* harmony export */   "nothing": () => (/* binding */ H),
-/* harmony export */   "original": () => (/* binding */ e),
-/* harmony export */   "produce": () => (/* binding */ fn),
-/* harmony export */   "produceWithPatches": () => (/* binding */ cn),
-/* harmony export */   "setAutoFreeze": () => (/* binding */ sn),
-/* harmony export */   "setUseProxies": () => (/* binding */ vn)
+/* harmony export */   enableAllPlugins: () => (/* binding */ J),
+/* harmony export */   enableES5: () => (/* binding */ F),
+/* harmony export */   enableMapSet: () => (/* binding */ C),
+/* harmony export */   enablePatches: () => (/* binding */ T),
+/* harmony export */   finishDraft: () => (/* binding */ dn),
+/* harmony export */   freeze: () => (/* binding */ d),
+/* harmony export */   immerable: () => (/* binding */ L),
+/* harmony export */   isDraft: () => (/* binding */ r),
+/* harmony export */   isDraftable: () => (/* binding */ t),
+/* harmony export */   nothing: () => (/* binding */ H),
+/* harmony export */   original: () => (/* binding */ e),
+/* harmony export */   produce: () => (/* binding */ fn),
+/* harmony export */   produceWithPatches: () => (/* binding */ cn),
+/* harmony export */   setAutoFreeze: () => (/* binding */ sn),
+/* harmony export */   setUseProxies: () => (/* binding */ vn)
 /* harmony export */ });
 function n(n){for(var r=arguments.length,t=Array(r>1?r-1:0),e=1;e<r;e++)t[e-1]=arguments[e];if(true){var i=Y[n],o=i?"function"==typeof i?i.apply(null,t):i:"unknown error nr: "+n;throw Error("[Immer] "+o)}throw Error("[Immer] minified error nr: "+n+(t.length?" "+t.map((function(n){return"'"+n+"'"})).join(","):"")+". Find the full error at: https://bit.ly/3cXEKWf")}function r(n){return!!n&&!!n[Q]}function t(n){var r;return!!n&&(function(n){if(!n||"object"!=typeof n)return!1;var r=Object.getPrototypeOf(n);if(null===r)return!0;var t=Object.hasOwnProperty.call(r,"constructor")&&r.constructor;return t===Object||"function"==typeof t&&Function.toString.call(t)===Z}(n)||Array.isArray(n)||!!n[L]||!!(null===(r=n.constructor)||void 0===r?void 0:r[L])||s(n)||v(n))}function e(t){return r(t)||n(23,t),t[Q].t}function i(n,r,t){void 0===t&&(t=!1),0===o(n)?(t?Object.keys:nn)(n).forEach((function(e){t&&"symbol"==typeof e||r(e,n[e],n)})):n.forEach((function(t,e){return r(e,t,n)}))}function o(n){var r=n[Q];return r?r.i>3?r.i-4:r.i:Array.isArray(n)?1:s(n)?2:v(n)?3:0}function u(n,r){return 2===o(n)?n.has(r):Object.prototype.hasOwnProperty.call(n,r)}function a(n,r){return 2===o(n)?n.get(r):n[r]}function f(n,r,t){var e=o(n);2===e?n.set(r,t):3===e?n.add(t):n[r]=t}function c(n,r){return n===r?0!==n||1/n==1/r:n!=n&&r!=r}function s(n){return X&&n instanceof Map}function v(n){return q&&n instanceof Set}function p(n){return n.o||n.t}function l(n){if(Array.isArray(n))return Array.prototype.slice.call(n);var r=rn(n);delete r[Q];for(var t=nn(r),e=0;e<t.length;e++){var i=t[e],o=r[i];!1===o.writable&&(o.writable=!0,o.configurable=!0),(o.get||o.set)&&(r[i]={configurable:!0,writable:!0,enumerable:o.enumerable,value:n[i]})}return Object.create(Object.getPrototypeOf(n),r)}function d(n,e){return void 0===e&&(e=!1),y(n)||r(n)||!t(n)||(o(n)>1&&(n.set=n.add=n.clear=n.delete=h),Object.freeze(n),e&&i(n,(function(n,r){return d(r,!0)}),!0)),n}function h(){n(2)}function y(n){return null==n||"object"!=typeof n||Object.isFrozen(n)}function b(r){var t=tn[r];return t||n(18,r),t}function m(n,r){tn[n]||(tn[n]=r)}function _(){return false||U||n(0),U}function j(n,r){r&&(b("Patches"),n.u=[],n.s=[],n.v=r)}function g(n){O(n),n.p.forEach(S),n.p=null}function O(n){n===U&&(U=n.l)}function w(n){return U={p:[],l:U,h:n,m:!0,_:0}}function S(n){var r=n[Q];0===r.i||1===r.i?r.j():r.g=!0}function P(r,e){e._=e.p.length;var i=e.p[0],o=void 0!==r&&r!==i;return e.h.O||b("ES5").S(e,r,o),o?(i[Q].P&&(g(e),n(4)),t(r)&&(r=M(e,r),e.l||x(e,r)),e.u&&b("Patches").M(i[Q].t,r,e.u,e.s)):r=M(e,i,[]),g(e),e.u&&e.v(e.u,e.s),r!==H?r:void 0}function M(n,r,t){if(y(r))return r;var e=r[Q];if(!e)return i(r,(function(i,o){return A(n,e,r,i,o,t)}),!0),r;if(e.A!==n)return r;if(!e.P)return x(n,e.t,!0),e.t;if(!e.I){e.I=!0,e.A._--;var o=4===e.i||5===e.i?e.o=l(e.k):e.o,u=o,a=!1;3===e.i&&(u=new Set(o),o.clear(),a=!0),i(u,(function(r,i){return A(n,e,o,r,i,t,a)})),x(n,o,!1),t&&n.u&&b("Patches").N(e,t,n.u,n.s)}return e.o}function A(e,i,o,a,c,s,v){if( true&&c===o&&n(5),r(c)){var p=M(e,c,s&&i&&3!==i.i&&!u(i.R,a)?s.concat(a):void 0);if(f(o,a,p),!r(p))return;e.m=!1}else v&&o.add(c);if(t(c)&&!y(c)){if(!e.h.D&&e._<1)return;M(e,c),i&&i.A.l||x(e,c)}}function x(n,r,t){void 0===t&&(t=!1),!n.l&&n.h.D&&n.m&&d(r,t)}function z(n,r){var t=n[Q];return(t?p(t):n)[r]}function I(n,r){if(r in n)for(var t=Object.getPrototypeOf(n);t;){var e=Object.getOwnPropertyDescriptor(t,r);if(e)return e;t=Object.getPrototypeOf(t)}}function k(n){n.P||(n.P=!0,n.l&&k(n.l))}function E(n){n.o||(n.o=l(n.t))}function N(n,r,t){var e=s(r)?b("MapSet").F(r,t):v(r)?b("MapSet").T(r,t):n.O?function(n,r){var t=Array.isArray(n),e={i:t?1:0,A:r?r.A:_(),P:!1,I:!1,R:{},l:r,t:n,k:null,o:null,j:null,C:!1},i=e,o=en;t&&(i=[e],o=on);var u=Proxy.revocable(i,o),a=u.revoke,f=u.proxy;return e.k=f,e.j=a,f}(r,t):b("ES5").J(r,t);return(t?t.A:_()).p.push(e),e}function R(e){return r(e)||n(22,e),function n(r){if(!t(r))return r;var e,u=r[Q],c=o(r);if(u){if(!u.P&&(u.i<4||!b("ES5").K(u)))return u.t;u.I=!0,e=D(r,c),u.I=!1}else e=D(r,c);return i(e,(function(r,t){u&&a(u.t,r)===t||f(e,r,n(t))})),3===c?new Set(e):e}(e)}function D(n,r){switch(r){case 2:return new Map(n);case 3:return Array.from(n)}return l(n)}function F(){function t(n,r){var t=s[n];return t?t.enumerable=r:s[n]=t={configurable:!0,enumerable:r,get:function(){var r=this[Q];return true&&f(r),en.get(r,n)},set:function(r){var t=this[Q]; true&&f(t),en.set(t,n,r)}},t}function e(n){for(var r=n.length-1;r>=0;r--){var t=n[r][Q];if(!t.P)switch(t.i){case 5:a(t)&&k(t);break;case 4:o(t)&&k(t)}}}function o(n){for(var r=n.t,t=n.k,e=nn(t),i=e.length-1;i>=0;i--){var o=e[i];if(o!==Q){var a=r[o];if(void 0===a&&!u(r,o))return!0;var f=t[o],s=f&&f[Q];if(s?s.t!==a:!c(f,a))return!0}}var v=!!r[Q];return e.length!==nn(r).length+(v?0:1)}function a(n){var r=n.k;if(r.length!==n.t.length)return!0;var t=Object.getOwnPropertyDescriptor(r,r.length-1);if(t&&!t.get)return!0;for(var e=0;e<r.length;e++)if(!r.hasOwnProperty(e))return!0;return!1}function f(r){r.g&&n(3,JSON.stringify(p(r)))}var s={};m("ES5",{J:function(n,r){var e=Array.isArray(n),i=function(n,r){if(n){for(var e=Array(r.length),i=0;i<r.length;i++)Object.defineProperty(e,""+i,t(i,!0));return e}var o=rn(r);delete o[Q];for(var u=nn(o),a=0;a<u.length;a++){var f=u[a];o[f]=t(f,n||!!o[f].enumerable)}return Object.create(Object.getPrototypeOf(r),o)}(e,n),o={i:e?5:4,A:r?r.A:_(),P:!1,I:!1,R:{},l:r,t:n,k:i,o:null,g:!1,C:!1};return Object.defineProperty(i,Q,{value:o,writable:!0}),i},S:function(n,t,o){o?r(t)&&t[Q].A===n&&e(n.p):(n.u&&function n(r){if(r&&"object"==typeof r){var t=r[Q];if(t){var e=t.t,o=t.k,f=t.R,c=t.i;if(4===c)i(o,(function(r){r!==Q&&(void 0!==e[r]||u(e,r)?f[r]||n(o[r]):(f[r]=!0,k(t)))})),i(e,(function(n){void 0!==o[n]||u(o,n)||(f[n]=!1,k(t))}));else if(5===c){if(a(t)&&(k(t),f.length=!0),o.length<e.length)for(var s=o.length;s<e.length;s++)f[s]=!1;else for(var v=e.length;v<o.length;v++)f[v]=!0;for(var p=Math.min(o.length,e.length),l=0;l<p;l++)o.hasOwnProperty(l)||(f[l]=!0),void 0===f[l]&&n(o[l])}}}}(n.p[0]),e(n.p))},K:function(n){return 4===n.i?o(n):a(n)}})}function T(){function e(n){if(!t(n))return n;if(Array.isArray(n))return n.map(e);if(s(n))return new Map(Array.from(n.entries()).map((function(n){return[n[0],e(n[1])]})));if(v(n))return new Set(Array.from(n).map(e));var r=Object.create(Object.getPrototypeOf(n));for(var i in n)r[i]=e(n[i]);return u(n,L)&&(r[L]=n[L]),r}function f(n){return r(n)?e(n):n}var c="add";m("Patches",{$:function(r,t){return t.forEach((function(t){for(var i=t.path,u=t.op,f=r,s=0;s<i.length-1;s++){var v=o(f),p=i[s];"string"!=typeof p&&"number"!=typeof p&&(p=""+p),0!==v&&1!==v||"__proto__"!==p&&"constructor"!==p||n(24),"function"==typeof f&&"prototype"===p&&n(24),"object"!=typeof(f=a(f,p))&&n(15,i.join("/"))}var l=o(f),d=e(t.value),h=i[i.length-1];switch(u){case"replace":switch(l){case 2:return f.set(h,d);case 3:n(16);default:return f[h]=d}case c:switch(l){case 1:return"-"===h?f.push(d):f.splice(h,0,d);case 2:return f.set(h,d);case 3:return f.add(d);default:return f[h]=d}case"remove":switch(l){case 1:return f.splice(h,1);case 2:return f.delete(h);case 3:return f.delete(t.value);default:return delete f[h]}default:n(17,u)}})),r},N:function(n,r,t,e){switch(n.i){case 0:case 4:case 2:return function(n,r,t,e){var o=n.t,s=n.o;i(n.R,(function(n,i){var v=a(o,n),p=a(s,n),l=i?u(o,n)?"replace":c:"remove";if(v!==p||"replace"!==l){var d=r.concat(n);t.push("remove"===l?{op:l,path:d}:{op:l,path:d,value:p}),e.push(l===c?{op:"remove",path:d}:"remove"===l?{op:c,path:d,value:f(v)}:{op:"replace",path:d,value:f(v)})}}))}(n,r,t,e);case 5:case 1:return function(n,r,t,e){var i=n.t,o=n.R,u=n.o;if(u.length<i.length){var a=[u,i];i=a[0],u=a[1];var s=[e,t];t=s[0],e=s[1]}for(var v=0;v<i.length;v++)if(o[v]&&u[v]!==i[v]){var p=r.concat([v]);t.push({op:"replace",path:p,value:f(u[v])}),e.push({op:"replace",path:p,value:f(i[v])})}for(var l=i.length;l<u.length;l++){var d=r.concat([l]);t.push({op:c,path:d,value:f(u[l])})}i.length<u.length&&e.push({op:"replace",path:r.concat(["length"]),value:i.length})}(n,r,t,e);case 3:return function(n,r,t,e){var i=n.t,o=n.o,u=0;i.forEach((function(n){if(!o.has(n)){var i=r.concat([u]);t.push({op:"remove",path:i,value:n}),e.unshift({op:c,path:i,value:n})}u++})),u=0,o.forEach((function(n){if(!i.has(n)){var o=r.concat([u]);t.push({op:c,path:o,value:n}),e.unshift({op:"remove",path:o,value:n})}u++}))}(n,r,t,e)}},M:function(n,r,t,e){t.push({op:"replace",path:[],value:r===H?void 0:r}),e.push({op:"replace",path:[],value:n})}})}function C(){function r(n,r){function t(){this.constructor=n}a(n,r),n.prototype=(t.prototype=r.prototype,new t)}function e(n){n.o||(n.R=new Map,n.o=new Map(n.t))}function o(n){n.o||(n.o=new Set,n.t.forEach((function(r){if(t(r)){var e=N(n.A.h,r,n);n.p.set(r,e),n.o.add(e)}else n.o.add(r)})))}function u(r){r.g&&n(3,JSON.stringify(p(r)))}var a=function(n,r){return(a=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(n,r){n.__proto__=r}||function(n,r){for(var t in r)r.hasOwnProperty(t)&&(n[t]=r[t])})(n,r)},f=function(){function n(n,r){return this[Q]={i:2,l:r,A:r?r.A:_(),P:!1,I:!1,o:void 0,R:void 0,t:n,k:this,C:!1,g:!1},this}r(n,Map);var o=n.prototype;return Object.defineProperty(o,"size",{get:function(){return p(this[Q]).size}}),o.has=function(n){return p(this[Q]).has(n)},o.set=function(n,r){var t=this[Q];return u(t),p(t).has(n)&&p(t).get(n)===r||(e(t),k(t),t.R.set(n,!0),t.o.set(n,r),t.R.set(n,!0)),this},o.delete=function(n){if(!this.has(n))return!1;var r=this[Q];return u(r),e(r),k(r),r.t.has(n)?r.R.set(n,!1):r.R.delete(n),r.o.delete(n),!0},o.clear=function(){var n=this[Q];u(n),p(n).size&&(e(n),k(n),n.R=new Map,i(n.t,(function(r){n.R.set(r,!1)})),n.o.clear())},o.forEach=function(n,r){var t=this;p(this[Q]).forEach((function(e,i){n.call(r,t.get(i),i,t)}))},o.get=function(n){var r=this[Q];u(r);var i=p(r).get(n);if(r.I||!t(i))return i;if(i!==r.t.get(n))return i;var o=N(r.A.h,i,r);return e(r),r.o.set(n,o),o},o.keys=function(){return p(this[Q]).keys()},o.values=function(){var n,r=this,t=this.keys();return(n={})[V]=function(){return r.values()},n.next=function(){var n=t.next();return n.done?n:{done:!1,value:r.get(n.value)}},n},o.entries=function(){var n,r=this,t=this.keys();return(n={})[V]=function(){return r.entries()},n.next=function(){var n=t.next();if(n.done)return n;var e=r.get(n.value);return{done:!1,value:[n.value,e]}},n},o[V]=function(){return this.entries()},n}(),c=function(){function n(n,r){return this[Q]={i:3,l:r,A:r?r.A:_(),P:!1,I:!1,o:void 0,t:n,k:this,p:new Map,g:!1,C:!1},this}r(n,Set);var t=n.prototype;return Object.defineProperty(t,"size",{get:function(){return p(this[Q]).size}}),t.has=function(n){var r=this[Q];return u(r),r.o?!!r.o.has(n)||!(!r.p.has(n)||!r.o.has(r.p.get(n))):r.t.has(n)},t.add=function(n){var r=this[Q];return u(r),this.has(n)||(o(r),k(r),r.o.add(n)),this},t.delete=function(n){if(!this.has(n))return!1;var r=this[Q];return u(r),o(r),k(r),r.o.delete(n)||!!r.p.has(n)&&r.o.delete(r.p.get(n))},t.clear=function(){var n=this[Q];u(n),p(n).size&&(o(n),k(n),n.o.clear())},t.values=function(){var n=this[Q];return u(n),o(n),n.o.values()},t.entries=function(){var n=this[Q];return u(n),o(n),n.o.entries()},t.keys=function(){return this.values()},t[V]=function(){return this.values()},t.forEach=function(n,r){for(var t=this.values(),e=t.next();!e.done;)n.call(r,e.value,e.value,this),e=t.next()},n}();m("MapSet",{F:function(n,r){return new f(n,r)},T:function(n,r){return new c(n,r)}})}function J(){F(),C(),T()}function K(n){return n}function $(n){return n}var G,U,W="undefined"!=typeof Symbol&&"symbol"==typeof Symbol("x"),X="undefined"!=typeof Map,q="undefined"!=typeof Set,B="undefined"!=typeof Proxy&&void 0!==Proxy.revocable&&"undefined"!=typeof Reflect,H=W?Symbol.for("immer-nothing"):((G={})["immer-nothing"]=!0,G),L=W?Symbol.for("immer-draftable"):"__$immer_draftable",Q=W?Symbol.for("immer-state"):"__$immer_state",V="undefined"!=typeof Symbol&&Symbol.iterator||"@@iterator",Y={0:"Illegal state",1:"Immer drafts cannot have computed properties",2:"This object has been frozen and should not be mutated",3:function(n){return"Cannot use a proxy that has been revoked. Did you pass an object from inside an immer function to an async process? "+n},4:"An immer producer returned a new value *and* modified its draft. Either return a new value *or* modify the draft.",5:"Immer forbids circular references",6:"The first or second argument to `produce` must be a function",7:"The third argument to `produce` must be a function or undefined",8:"First argument to `createDraft` must be a plain object, an array, or an immerable object",9:"First argument to `finishDraft` must be a draft returned by `createDraft`",10:"The given draft is already finalized",11:"Object.defineProperty() cannot be used on an Immer draft",12:"Object.setPrototypeOf() cannot be used on an Immer draft",13:"Immer only supports deleting array indices",14:"Immer only supports setting array indices and the 'length' property",15:function(n){return"Cannot apply patch, path doesn't resolve: "+n},16:'Sets cannot have "replace" patches.',17:function(n){return"Unsupported patch operation: "+n},18:function(n){return"The plugin for '"+n+"' has not been loaded into Immer. To enable the plugin, import and call `enable"+n+"()` when initializing your application."},20:"Cannot use proxies if Proxy, Proxy.revocable or Reflect are not available",21:function(n){return"produce can only be called on things that are draftable: plain objects, arrays, Map, Set or classes that are marked with '[immerable]: true'. Got '"+n+"'"},22:function(n){return"'current' expects a draft, got: "+n},23:function(n){return"'original' expects a draft, got: "+n},24:"Patching reserved attributes like __proto__, prototype and constructor is not allowed"},Z=""+Object.prototype.constructor,nn="undefined"!=typeof Reflect&&Reflect.ownKeys?Reflect.ownKeys:void 0!==Object.getOwnPropertySymbols?function(n){return Object.getOwnPropertyNames(n).concat(Object.getOwnPropertySymbols(n))}:Object.getOwnPropertyNames,rn=Object.getOwnPropertyDescriptors||function(n){var r={};return nn(n).forEach((function(t){r[t]=Object.getOwnPropertyDescriptor(n,t)})),r},tn={},en={get:function(n,r){if(r===Q)return n;var e=p(n);if(!u(e,r))return function(n,r,t){var e,i=I(r,t);return i?"value"in i?i.value:null===(e=i.get)||void 0===e?void 0:e.call(n.k):void 0}(n,e,r);var i=e[r];return n.I||!t(i)?i:i===z(n.t,r)?(E(n),n.o[r]=N(n.A.h,i,n)):i},has:function(n,r){return r in p(n)},ownKeys:function(n){return Reflect.ownKeys(p(n))},set:function(n,r,t){var e=I(p(n),r);if(null==e?void 0:e.set)return e.set.call(n.k,t),!0;if(!n.P){var i=z(p(n),r),o=null==i?void 0:i[Q];if(o&&o.t===t)return n.o[r]=t,n.R[r]=!1,!0;if(c(t,i)&&(void 0!==t||u(n.t,r)))return!0;E(n),k(n)}return n.o[r]===t&&(void 0!==t||r in n.o)||Number.isNaN(t)&&Number.isNaN(n.o[r])||(n.o[r]=t,n.R[r]=!0),!0},deleteProperty:function(n,r){return void 0!==z(n.t,r)||r in n.t?(n.R[r]=!1,E(n),k(n)):delete n.R[r],n.o&&delete n.o[r],!0},getOwnPropertyDescriptor:function(n,r){var t=p(n),e=Reflect.getOwnPropertyDescriptor(t,r);return e?{writable:!0,configurable:1!==n.i||"length"!==r,enumerable:e.enumerable,value:t[r]}:e},defineProperty:function(){n(11)},getPrototypeOf:function(n){return Object.getPrototypeOf(n.t)},setPrototypeOf:function(){n(12)}},on={};i(en,(function(n,r){on[n]=function(){return arguments[0]=arguments[0][0],r.apply(this,arguments)}})),on.deleteProperty=function(r,t){return true&&isNaN(parseInt(t))&&n(13),on.set.call(this,r,t,void 0)},on.set=function(r,t,e){return true&&"length"!==t&&isNaN(parseInt(t))&&n(14),en.set.call(this,r[0],t,e,r[0])};var un=function(){function e(r){var e=this;this.O=B,this.D=!0,this.produce=function(r,i,o){if("function"==typeof r&&"function"!=typeof i){var u=i;i=r;var a=e;return function(n){var r=this;void 0===n&&(n=u);for(var t=arguments.length,e=Array(t>1?t-1:0),o=1;o<t;o++)e[o-1]=arguments[o];return a.produce(n,(function(n){var t;return(t=i).call.apply(t,[r,n].concat(e))}))}}var f;if("function"!=typeof i&&n(6),void 0!==o&&"function"!=typeof o&&n(7),t(r)){var c=w(e),s=N(e,r,void 0),v=!0;try{f=i(s),v=!1}finally{v?g(c):O(c)}return"undefined"!=typeof Promise&&f instanceof Promise?f.then((function(n){return j(c,o),P(n,c)}),(function(n){throw g(c),n})):(j(c,o),P(f,c))}if(!r||"object"!=typeof r){if(void 0===(f=i(r))&&(f=r),f===H&&(f=void 0),e.D&&d(f,!0),o){var p=[],l=[];b("Patches").M(r,f,p,l),o(p,l)}return f}n(21,r)},this.produceWithPatches=function(n,r){if("function"==typeof n)return function(r){for(var t=arguments.length,i=Array(t>1?t-1:0),o=1;o<t;o++)i[o-1]=arguments[o];return e.produceWithPatches(r,(function(r){return n.apply(void 0,[r].concat(i))}))};var t,i,o=e.produce(n,r,(function(n,r){t=n,i=r}));return"undefined"!=typeof Promise&&o instanceof Promise?o.then((function(n){return[n,t,i]})):[o,t,i]},"boolean"==typeof(null==r?void 0:r.useProxies)&&this.setUseProxies(r.useProxies),"boolean"==typeof(null==r?void 0:r.autoFreeze)&&this.setAutoFreeze(r.autoFreeze)}var i=e.prototype;return i.createDraft=function(e){t(e)||n(8),r(e)&&(e=R(e));var i=w(this),o=N(this,e,void 0);return o[Q].C=!0,O(i),o},i.finishDraft=function(r,t){var e=r&&r[Q]; true&&(e&&e.C||n(9),e.I&&n(10));var i=e.A;return j(i,t),P(void 0,i)},i.setAutoFreeze=function(n){this.D=n},i.setUseProxies=function(r){r&&!B&&n(20),this.O=r},i.applyPatches=function(n,t){var e;for(e=t.length-1;e>=0;e--){var i=t[e];if(0===i.path.length&&"replace"===i.op){n=i.value;break}}e>-1&&(t=t.slice(e+1));var o=b("Patches").$;return r(n)?o(n,t):this.produce(n,(function(n){return o(n,t)}))},e}(),an=new un,fn=an.produce,cn=an.produceWithPatches.bind(an),sn=an.setAutoFreeze.bind(an),vn=an.setUseProxies.bind(an),pn=an.applyPatches.bind(an),ln=an.createDraft.bind(an),dn=an.finishDraft.bind(an);/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (fn);
 //# sourceMappingURL=immer.esm.js.map
@@ -41255,10 +41431,13 @@ function n(n){for(var r=arguments.length,t=Array(r>1?r-1:0),e=1;e<r;e++)t[e-1]=a
 /******/ 		var document = __webpack_require__.g.document;
 /******/ 		if (!scriptUrl && document) {
 /******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
+/******/ 				scriptUrl = document.currentScript.src;
 /******/ 			if (!scriptUrl) {
 /******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
 /******/ 			}
 /******/ 		}
 /******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
