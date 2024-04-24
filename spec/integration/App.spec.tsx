@@ -37,8 +37,8 @@ it('Хранение стора в localStorage', async () => {
   await userEvent.type(inputEl, 'Второй заголовок')
   await userEvent.click(addBtnEl)
 
-  expect(localStorage.getItem).toBeCalled()
-  expect(localStorage.setItem).toBeCalled()
+  expect(localStorage.getItem).toHaveBeenCalled()
+  expect(localStorage.setItem).toHaveBeenCalled()
 })
 
 // npm test -- App.spec.tsx --watch

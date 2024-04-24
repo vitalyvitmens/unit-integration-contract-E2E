@@ -1,9 +1,9 @@
+// import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react'
 import { NewTaskBar } from 'src/modules/NewTaskBar'
 import ue from '@testing-library/user-event'
 import { JestStoreProvider } from '../utils/JestStoreProvider'
 import * as taskSliceModule from 'src/store/taskSlice'
-
 // 1. Название задачи не должно быть больше 32 символов
 // 2. Название задачи не может быть пустым
 // 3. Кнопка Добавить должна блокироваться для невалидных значений
