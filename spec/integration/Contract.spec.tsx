@@ -29,3 +29,5 @@ it('проверка контракта', async () => {
     done: expect.any(Boolean),
   })
 })
+
+// npm test -- Contract.spec.tsx --watch
