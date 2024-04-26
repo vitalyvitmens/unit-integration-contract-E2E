@@ -101,6 +101,18 @@
   opacity: 0.5;
 }
 
+.button-all {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.button-active {
+  background-color: #1f75fe;
+  color: white;
+  border-radius: 5px;
+}
+
 .empty-wrapper {
   text-align: center;
   margin: 12px auto;
