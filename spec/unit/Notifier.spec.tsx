@@ -9,6 +9,6 @@ describe('Окно оповещения', () => {
 
     jest.runAllTimers()
 
-    expect(fn).toBeCalled()
+    expect(fn).toHaveBeenCalled()
   })
 })
