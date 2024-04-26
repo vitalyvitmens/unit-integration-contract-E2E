@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Список задач с включенным фильтром 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,10 +1,10 @@
+  <DocumentFragment>
+    <button
+-     class="button-active"
++     class="button-all"
+    >
+-     Незавершенные задачи
++     Все задачи
+    </button>
+    <ul
+      class="task-list tasks"
+    >
+      <li"
+`;
