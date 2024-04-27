@@ -25,7 +25,7 @@ export const List = ({ items, onDelete, onToggle }: Props) => {
       <button onClick={toggleFilter} className={buttonClass}>
         {buttonText}
       </button>
-      <ul className="task-list tasks">
+      <ul className="task-list tasks" data-testid="task-list">
         {filteredItems.map((item) => (
           <Item
             {...item}
