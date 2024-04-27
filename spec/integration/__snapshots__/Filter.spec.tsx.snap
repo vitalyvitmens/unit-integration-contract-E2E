@@ -16,6 +16,6 @@ exports[`Список задач с включенным фильтром 1`] = 
     </button>
     <ul
       class="task-list tasks"
-    >
-      <li"
+      data-testid="task-list"
+    >"
 `;

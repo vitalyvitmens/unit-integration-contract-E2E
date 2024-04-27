@@ -16,7 +16,7 @@ describe('Список задач', () => {
     const onToggle = jest.fn()
 
     // Определяем начальный набор задач для тестирования
-    const items = [
+    const items: Task[] = [
       { id: '2', header: 'купить молоко', done: false },
       { id: '3', header: 'выгулять Ричи', done: false },
     ]
@@ -54,7 +54,7 @@ describe('Список задач', () => {
     const onToggle = jest.fn()
 
     // Определяем набор задач, включая выполненные и незавершенные
-    const items = [
+    const items: Task[] = [
       { id: '1', header: 'купить хлеб', done: true },
       { id: '2', header: 'купить молоко', done: false },
       { id: '3', header: 'выгулять Ричи', done: false },
@@ -82,7 +82,7 @@ describe('Список задач', () => {
     const onDelete = jest.fn()
     const onToggle = jest.fn()
 
-    const items = [
+    const items: Task[] = [
       { id: '1', header: 'купить хлеб', done: true },
       { id: '2', header: 'купить молоко', done: false },
       { id: '3', header: 'выгулять Ричи', done: false },
@@ -112,4 +112,4 @@ describe('Список задач', () => {
 })
 
 // npm test -- Filter.spec.tsx --watch
-// npm test -- Filter.spec.tsx --u
+// npm test -- Filter.spec.tsx --u // где --u это автообновление snapshot
