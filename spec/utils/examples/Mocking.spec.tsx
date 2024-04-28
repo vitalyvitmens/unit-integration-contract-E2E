@@ -7,13 +7,13 @@ describe.skip('Мокирование', () => {
 
     console.error('Ошибка!')
 
-    expect(fn).toBeCalledWith('Ошибка!')
-    expect(fn).toReturnWith(42)
+    expect(fn).toHaveBeenCalledWith('Ошибка!')
+    expect(fn).toHaveReturnedWith(42)
   })
 
   it('Мокируем модули', () => {
     sayHi()
-    expect(sayHi).toReturnWith('Привет!')
+    expect(sayHi).toHaveReturnedWith('Привет!')
   })
 
   it('Мокируем поля объекта', () => {
@@ -38,7 +38,7 @@ describe.skip('Мокирование', () => {
       runTimer()
       jest.runOnlyPendingTimers()
 
-      expect(fn).toBeCalled()
+      expect(fn).toHaveBeenCalled()
     }
   })
 })
