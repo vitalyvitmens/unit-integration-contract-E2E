@@ -14,7 +14,7 @@ describe('Поле ввода', () => {
     const inputEl = screen.getByRole('textbox')
     await userEvent.type(inputEl, 'Пример заголовка задачи')
 
-    expect(fn).toBeCalledTimes(23)
+    expect(fn).toHaveBeenCalledTimes(23)
   })
 
   it('Ограничение на ввод более 32 символов', async () => {

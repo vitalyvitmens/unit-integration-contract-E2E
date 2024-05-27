@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react'
-import uE from '@testing-library/user-event'
+import ue from '@testing-library/user-event'
 import { Item } from 'src/components/Item'
 
 // Настраиваем userEvent с опцией advanceTimers, которая позволяет Jest управлять таймерами в тестах
-const userEvent = uE.setup({
+const userEvent = ue.setup({
   advanceTimers: jest.advanceTimersByTime,
 })
 

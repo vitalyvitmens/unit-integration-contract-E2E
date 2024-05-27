@@ -1,9 +1,10 @@
 import { render, screen } from '@testing-library/react'
-import uE from '@testing-library/user-event'
+import ue from '@testing-library/user-event'
+import { App } from 'src/App'
 import { List } from 'src/components/List'
 
 // Настраиваем userEvent с опцией advanceTimers, которая позволяет Jest управлять таймерами в тестах
-const userEvent = uE.setup({
+const userEvent = ue.setup({
   advanceTimers: jest.advanceTimersByTime,
 })
 
@@ -21,6 +22,7 @@ describe('Список задач', () => {
       { id: '3', header: 'выгулять Ричи', done: false },
     ]
 
+    render(<App />)
     // Рендерим компонент List с начальным состоянием фильтра (все задачи)
     const { rerender, asFragment } = render(
       <List items={items} onDelete={onDelete} onToggle={onToggle} />
